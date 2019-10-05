@@ -18,6 +18,7 @@ nav ul li
 {
     list-style-type: none;
     display: inline;
+    margin-bottom: 0;
 }
 
 nav li:not(:first-child):before {

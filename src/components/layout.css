@@ -200,7 +200,9 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  /* font-family: georgia, serif; */
+  font-family: normal normal normal 16px/1.4em nimbus-sans-tw01con,sans-serif;
+
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -615,6 +617,17 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

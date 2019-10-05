@@ -28,25 +28,21 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="wrapper">
       <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
-
-      <div
+        <main className="body"
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
+          padding: `0px 1.0875rem 66px`,
           paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        }}>{children}</main>
+        <footer style={{backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '20px'}}>
+          © {new Date().getFullYear()}
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          {data.site.siteMetadata.title}
         </footer>
-      </div>
-    </>
+    </div>
   )
 }
 
