@@ -1,45 +1,33 @@
 import { Link } from "gatsby"
+import PropTypes from "prop-types"
 import React from "react"
 import "./nav.css"
 
-const Nav = () => (
-    <div className="nav" >
-    <ul>
-        <li>
-            <Link
-                to="/"
+const Nav = ({menuLinks}) => (
+    <nav>
+        <ul style={{ display: "flex", flex: 1 }}>
+            {menuLinks.map(link => (
+            <li
+                key={link.name}
                 style={{
-                    color: `white`,
-                    textDecoration: `none`,
+                listStyleType: `none`,
                 }}
             >
-                About
-            </Link>
-        </li>
-        <li>
-            <Link
-                to="/page-2/"
-                style={{
-                    color: `white`,
-                    textDecoration: `none`,
-                }}
-            >
-                Green Voter's Guide
-            </Link>
-        </li>
-        <li>
-            <Link
-                to="/"
-                style={{
-                    color: `white`,
-                    textDecoration: `none`,
-                }}
-            >
-                Contact Us
-            </Link>
-        </li>
-    </ul>
-    </div>
+                <Link to={link.link}>
+                {link.name}
+                </Link>
+            </li>
+            ))}
+        </ul>
+    </nav>
 )
+
+Nav.propTypes = {
+    menuLinks: PropTypes.array,
+}
+
+Nav.defaultProps = {
+    menuLinks: []
+}
 
 export default Nav

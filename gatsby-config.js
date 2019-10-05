@@ -1,6 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: `Voters for a Green Indiana`,
+    menuLinks:[
+      {
+          name:' About',
+          link: '/'
+      },
+      {
+          name: 'Green Voter\'s Guide',
+          link: '/page-2'
+      },
+      {
+        name: 'Contact Us',
+        link: '/page-2'
+      }
+    ],
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },

@@ -1,10 +1,10 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "./logo"
 import Nav from "./nav"
+import './nav.css'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{
       background: `#A4CC8D`,
@@ -18,28 +18,20 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <Link
-        to="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`,
-        }}
-      >
-        {/* {siteTitle} */}
-        <Logo />
-
-      </Link>
-      <Nav />
+      <Logo />
+      <Nav menuLinks={menuLinks}/>
     </div>
   </header>
 )
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  menuLinks: PropTypes.array,
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  menuLinks: [],
 }
 
 export default Header
