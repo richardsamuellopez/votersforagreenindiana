@@ -16,6 +16,8 @@ const Header = ({ siteTitle, menuLinks }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: 'flex',
+        alignItems: 'center',
       }}
     >
       <Logo />

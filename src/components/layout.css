@@ -1,5 +1,7 @@
 html {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: arial;
+
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -185,7 +187,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em arial;
   box-sizing: border-box;
   overflow-y: scroll;
 }

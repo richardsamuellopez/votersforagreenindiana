@@ -5,7 +5,7 @@ import "./nav.css"
 
 const Nav = ({menuLinks}) => (
     <nav>
-        <ul style={{ display: "flex", flex: 1 }}>
+        <ul>
             {menuLinks.map(link => (
             <li
                 key={link.name}

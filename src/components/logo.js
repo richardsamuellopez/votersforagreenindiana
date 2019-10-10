@@ -26,7 +26,7 @@ const Logo = () => {
     }
   `)
 
-  return <Link to='/' ><Img fixed={data.placeholderImage.childImageSharp.fixed} /></Link>
+  return <span className="logo"><Link to='/' ><Img fixed={data.placeholderImage.childImageSharp.fixed} /></Link></span>
 }
 
 export default Logo
