@@ -12,13 +12,13 @@ const GuidePage = () => {
      allFile(
        filter: { extension: { eq: "pdf" } }
        sort: {
-        fields: [modifiedTime]
+        fields: [birthTime]
         order: DESC
       }
       ) {
        edges {
          node {
-           modifiedTime
+           birthTime
            publicURL
            name
          }
