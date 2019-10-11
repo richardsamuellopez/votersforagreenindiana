@@ -1,32 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useStaticQuery, graphql } from "gatsby"
-
+import DocList from "../components/docList"
 
 import './guide.css'
 
 const GuidePage = () => {
-  const data = useStaticQuery(graphql`
-   {
-     allFile(
-       filter: { extension: { eq: "pdf" } }
-       sort: {
-        fields: [birthTime]
-        order: DESC
-      }
-      ) {
-       edges {
-         node {
-           birthTime
-           publicURL
-           name
-         }
-       }
-     }
-   }
- `)
-
  return (
   <Layout>
     <SEO title="Green voters guide" />
@@ -38,15 +17,8 @@ const GuidePage = () => {
       </div>
       <div className="item">
         <ul>
-          {data.allFile.edges.map((file, index) => {
-            return (
-              <li key={`pdf-${index}`}>
-                <a href={file.node.publicURL} download>
-                  {file.node.name}
-                </a>
-              </li>
-            )
-          })}
+          <DocList search="Green" />
+          <DocList search="Solar" />
         </ul>
       </div>
     </div>
