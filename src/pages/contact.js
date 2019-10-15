@@ -21,10 +21,10 @@ export default class ContactPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div class="container">
+        <div className="container">
           <h1>Contact Us</h1>
           <form name="contact" method="POST" data-netlify="true">
-            <ul class="flex-outer">
+            <ul className="flex-outer">
               <li>
                 <label for="first-name">First Name</label>
                 <input name="first" type="text" id="first-name" placeholder="Enter your first name here" />
