@@ -23,7 +23,7 @@ export default class ContactPage extends React.Component {
       <Layout>
         <div class="container">
           <h1>Contact Us</h1>
-          <form name="ContactUs" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
             <ul class="flex-outer">
               <li>
                 <label for="first-name">First Name</label>
