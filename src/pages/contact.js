@@ -24,6 +24,7 @@ export default class ContactPage extends React.Component {
         <div className="container">
           <h1>Contact Us</h1>
           <form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
             <ul className="flex-outer">
               <li>
                 <label for="first-name">First Name</label>
