@@ -27,19 +27,19 @@ export default class ContactPage extends React.Component {
             <ul class="flex-outer">
               <li>
                 <label for="first-name">First Name</label>
-                <input type="text" id="first-name" placeholder="Enter your first name here" />
+                <input name="first" type="text" id="first-name" placeholder="Enter your first name here" />
               </li>
               <li>
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" placeholder="Enter your last name here" />
+                <input name="last" type="text" id="last-name" placeholder="Enter your last name here" />
               </li>
               <li>
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email here" />
+                <input name="email" type="email" id="email" placeholder="Enter your email here" />
               </li>
               <li>
                 <label for="message">Message</label>
-                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+                <textarea name="message" rows="6" id="message" placeholder="Enter your message here"></textarea>
               </li>
               <li>
                 <button type="submit">Submit</button>
