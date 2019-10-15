@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import './contact.css'
 
 export default class ContactPage extends React.Component {
   state = {
@@ -20,38 +21,30 @@ export default class ContactPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div>
+        <div class="container">
           <h1>Contact Us</h1>
-          <form name="ContactUs" method="post" netlify-honeypot="bot-field" data-netlify="true">
-            <input type="hidden" name="bot-field" />
-            <label>
-              Name
-              <input
-                type="text"
-                name="name"
-                value={this.state.name}
-                onChange={this.handleInputChange}
-              />
-            </label>
-            <label>
-              Email
-              <input
-                type="text"
-                name="email"
-                value={this.state.email}
-                onChange={this.handleInputChange}
-              />
-            </label>
-            <label>
-              Message
-              <input
-                type="textarea"
-                name="message"
-                value={this.state.message}
-                onChange={this.handleInputChange}
-              />
-            </label>
-            <button type="submit">Submit</button>
+          <form name="ContactUs" method="POST" data-netlify="true">
+            <ul class="flex-outer">
+              <li>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter your first name here" />
+              </li>
+              <li>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter your last name here" />
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email here" />
+              </li>
+              <li>
+                <label for="message">Message</label>
+                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+              </li>
+              <li>
+                <button type="submit">Submit</button>
+              </li>
+            </ul>
           </form>
         </div>
       </Layout>
