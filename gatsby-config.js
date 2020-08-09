@@ -15,8 +15,8 @@ module.exports = {
         link: '/contact'
       }
     ],
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: 'Voters for a Green Indiana is a nonpartisan group of volunteers who take climate change very seriously. We believe candidates who understand the ongoing energy and climate challenges are best qualified to lead us through these changes. Our goal is to inform voters who also care about this issue about candidates who accept climate science, understand this is an important local & global issue, and support policies and actions to reduce carbon pollution.',
+    author: ``,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
