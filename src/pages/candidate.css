@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+}
+
+.item {
+    /* padding: 10px; */
+}
+
+.flex-container .item:first-child {
+    flex: 2 0 0;
+}
+
+.flex-container :nth-child(2) {
+    flex: 1 0 0;
+ } 

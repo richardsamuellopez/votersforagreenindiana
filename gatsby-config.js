@@ -3,12 +3,16 @@ module.exports = {
     title: `Voters for a Green Indiana`,
     menuLinks:[
       {
-          name:' About',
+          name: 'About',
           link: '/'
       },
       {
           name: 'Green Voter\'s Guide',
           link: '/guide'
+      },
+      {
+        name: 'Candidate Views & Review',
+        link: '/candidate'
       },
       {
         name: 'Contact Us',
