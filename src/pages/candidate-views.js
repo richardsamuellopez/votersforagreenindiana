@@ -15,7 +15,6 @@ const CandidatePage = () => {
       </div>
       <div className="item">
         <ul>
-          
         </ul>
       </div>
     </div>
