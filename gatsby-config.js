@@ -11,8 +11,8 @@ module.exports = {
           link: '/guide'
       },
       {
-        name: 'Candidate Views & Review',
-        link: '/candidate'
+        name: 'Candidate Views Q&A',
+        link: '/candidate-views'
       },
       {
         name: 'Contact Us',
