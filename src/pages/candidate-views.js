@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import './candidate.css'
+import './candidate-views.css'
 
 const CandidatePage = () => {
  return (
@@ -11,7 +11,7 @@ const CandidatePage = () => {
     <h1>Candidate Views Questionaire & Answers</h1>
     <div className="flex-container">
       <div className="item">
-        <p>Thist will be the landing page for the Candidate Views QUestionaire & Answers page.</p>
+        <p>This will be the landing page for the Candidate Views QUestionaire & Answers page.</p>
       </div>
       <div className="item">
         <ul>
