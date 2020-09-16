@@ -20,12 +20,14 @@ const CandidatePage = () => {
         In addition, we also review the candidate’s policy positions, voting record and campaign contributions.
         Due to limited resources, only major party candidates in select races are evaluated.
       </p>
-      <h3 className="uppercase">FIND YOUR LEGISLATORS HERE -</h3>
       <p>
+        <span style={{fontSize:'1.5em', fontWeight: 'bold'}}className="uppercase">FIND YOUR LEGISLATORS HERE - </span>
         <a href="http://iga.in.gov/legislative/find-legislators/" target="_blank" rel="noopener noreferrer">http://iga.in.gov/legislative/find-legislators/</a>
       </p>
-      <h3 className="uppercase">FIND CANDIDATE VIEWS HERE -</h3>
-      <p>The candidate view will be available in October.</p>
+      <p>
+        <span style={{fontSize:'1.5em', fontWeight: 'bold'}}className="uppercase">FIND CANDIDATE VIEWS HERE - </span>
+        The candidate views will be available in October.
+      </p>
     </div>
   </Layout>
  )

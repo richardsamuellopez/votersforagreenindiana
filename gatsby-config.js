@@ -10,10 +10,10 @@ module.exports = {
           name: 'Green Voter\'s Guide',
           link: '/guide'
       },
-      // {
-      //   name: 'Candidate Views Q&A',
-      //   link: '/candidate-views'
-      // },
+      {
+        name: 'Candidate Views',
+        link: '/candidate-views'
+      },
       {
         name: 'Contact Us',
         link: '/contact'
