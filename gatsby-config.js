@@ -7,12 +7,12 @@ module.exports = {
           link: '/'
       },
       {
-          name: 'Green Voter\'s Guide',
-          link: '/guide'
-      },
-      {
         name: 'Candidate Views',
         link: '/candidate-views'
+      },
+      {
+          name: 'Green Voter\'s Guide',
+          link: '/guide'
       },
       {
         name: 'Contact Us',
