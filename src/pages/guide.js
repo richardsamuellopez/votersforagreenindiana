@@ -24,8 +24,8 @@ const GuidePage = () => {
           <DocList search="2020" />
           <li>
             <Link className="uppercase" to="/candidate-views">Candidate Views</Link>
-            </li>
-          {/* <DocList search="Solar" /> */}
+          </li>
+          <DocList search="Solar" />
         </ul>
       </div>
     </div>
