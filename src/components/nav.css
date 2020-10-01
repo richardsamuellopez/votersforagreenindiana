@@ -55,9 +55,6 @@ nav li a {
         display: flex!important;
         justify-content: center;
     }
-    header {
-        height: 200px;
-    }
     header > div:first-of-type  {
         flex-flow:column wrap;
     }
