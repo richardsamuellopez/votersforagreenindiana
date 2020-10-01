@@ -22,9 +22,6 @@ const GuidePage = () => {
       <div className="item">
         <ul>
           <DocList search="2020" />
-          <li>
-            <Link className="uppercase" to="/candidate-views">Candidate Views</Link>
-          </li>
           <DocList search="Solar" />
         </ul>
       </div>

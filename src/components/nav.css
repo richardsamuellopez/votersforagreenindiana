@@ -59,4 +59,7 @@ nav li a {
     header > div:first-of-type  {
         flex-flow:column wrap;
     }
+    .logo {
+        margin-bottom: 35px;
+    }
 }
