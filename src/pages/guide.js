@@ -21,7 +21,10 @@ const GuidePage = () => {
       </div>
       <div className="item">
         <ul>
-          <DocList search="2020" />
+          {/* <DocList search="2020" /> */}
+          <li>
+            2020 GREEN VOTERS GUIDE COMING SOON
+          </li>
           <DocList search="Solar" />
         </ul>
       </div>
