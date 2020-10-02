@@ -7,8 +7,9 @@ nav {
     float: right;
     height: 100px;
     position: relative;
-    width: 50%;
-    flex: 1 0 0;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
 }
 
 nav ul {
@@ -46,13 +47,11 @@ nav li a {
 }
 
 .logo {
-    flex: 1 0 0;
 }
 
 @media only screen and (max-width: 960px) {
     nav {
         width: 90%;
-        display: flex!important;
         justify-content: center;
     }
     header > div:first-of-type  {
