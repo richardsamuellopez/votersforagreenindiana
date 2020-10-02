@@ -11,7 +11,7 @@ module.exports = {
         link: '/candidate-views'
       },
       {
-          name: 'Green Voter\'s Guide',
+          name: 'Voters Guide',
           link: '/guide'
       },
       {
