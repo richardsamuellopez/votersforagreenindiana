@@ -21,8 +21,10 @@ const GuidePage = () => {
       </div>
       <div className="item">
         <ul>
-          <DocList search="2020" />
+          <DocList search="2020" exclude="Press" />
+          <DocList search="Campaign" />
           <DocList search="Solar" />
+          <DocList search="Press" />
         </ul>
       </div>
     </div>

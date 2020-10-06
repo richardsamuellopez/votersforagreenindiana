@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-const DocList = ({search}) => {
+const DocList = ({search, exclude}) => {
   const data = useStaticQuery(graphql`
    {
      allFile(
@@ -27,7 +27,7 @@ const DocList = ({search}) => {
  return (<React.Fragment>
   {data.allFile.edges.map((file, index) => {
     return (
-      file.node.name.includes(search) ?
+      file.node.name.includes(search) && (exclude ? !file.node.name.includes(exclude) : true) ?
       <li key={`pdf-${index}`}>
         <a href={file.node.publicURL} download>
           {file.node.name}
