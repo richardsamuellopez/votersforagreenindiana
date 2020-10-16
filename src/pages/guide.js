@@ -26,6 +26,13 @@ const GuidePage = () => {
           <DocList search="Solar" />
           <DocList search="Press" />
         </ul>
+        <h5>Top Recipients of Campaign Funds from Coal & Utility Industries</h5>
+        <ul>
+          <DocList search="Soliday" />
+          <DocList search="Huston" />
+          <DocList search="Charbonneau" />
+          <DocList search="Koch" />
+        </ul>
       </div>
     </div>
   </Layout>

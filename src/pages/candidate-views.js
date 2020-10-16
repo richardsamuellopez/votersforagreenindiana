@@ -19,7 +19,7 @@ const CandidatePage = () => {
         VGI volunteers put together non-partisan resources to help inform voters. Where available, it includes a summary of the candidate’s policy positions, voting record, ratings and a listing of campaign contributions from the fossil fuel industry based on publicly available information.
       </p>
       <p>
-        In addition, candidates in select races were invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates were contacted multiple times; lack of a response to our inquiries is noted below. These candidates have failed to provide voters with their positions on the key issue of our global environment.
+        In addition, candidates in select races were invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates were contacted multiple times; lack of a response to our inquiries is noted. These candidates have failed to provide voters with their positions on the key issue of our global environment.
       </p>
       <p>
         Due to limited volunteer time and resources, only major party candidates in select contested races were evaluated.
