@@ -18,7 +18,7 @@ const Logo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "vgi-logo-transparant.png" }) {
         childImageSharp {
-          fixed(width: 300, height: 75) {
+          fixed(width: 300, height: 85) {
             ...GatsbyImageSharpFixed
           }
         }
