@@ -58,6 +58,6 @@ nav li a {
         flex-flow:column wrap;
     }
     .logo {
-        margin-bottom: 35px;
+        /* margin-bottom: 35px; */
     }
 }
