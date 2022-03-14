@@ -30,10 +30,10 @@ const CandidatePage = () => {
           Voter registration ends October 5.
         </li>
         <li>
-          Early voting begins October 6.  Find location & hours <a href="https://indianavoters.in.gov/" target="_blank">here</a> or at your local county Election Office.
+          Early voting begins October 6.  Find location & hours <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a> or at your local county Election Office.
         </li>
         <li>
-          Applications to Vote By Mail are due October 22, 11:59 pm (local time). Apply online <a href="https://indianavoters.in.gov/" target="_blank">here</a>.
+          Applications to Vote By Mail are due October 22, 11:59 pm (local time). Apply online <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a>.
         </li>
         <li>
           Mail-in absentee ballots must be received by 12 noon (local time), November 3, so be certain to mail in early. Absentee ballots can also be dropped off at your county Election Office during office hours.  More info here.
@@ -42,7 +42,7 @@ const CandidatePage = () => {
           Election Day is November 3, 6 am – 6 pm.
         </li>
         <li>
-          To see who’s on your ballot, go to <a href="https://indianavoters.in.gov/" target="_blank">https://indianavoters.in.gov/</a>.  Then to get into your Voter Portal, click on either “CHECK VOTING STATUS” or “VOTING LOCATION”.
+          To see who’s on your ballot, go to <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">https://indianavoters.in.gov/</a>.  Then to get into your Voter Portal, click on either “CHECK VOTING STATUS” or “VOTING LOCATION”.
         </li>
       </ul>
       <p>

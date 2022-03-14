@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DocList from "../components/docList"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import './guide.css'
 
 const GuidePage = () => {
@@ -21,10 +21,10 @@ const GuidePage = () => {
       </div>
       <div className="item">
         <ul>
-          <DocList search="2020" exclude="Press" />
-          <DocList search="Campaign" />
+          {/* <DocList search="2020" exclude="Press" /> */}
+          {/* <DocList search="Campaign" /> */}
           <DocList search="Solar" />
-          <DocList search="Press" />
+          {/* <DocList search="Press" /> */}
         </ul>
         <h5>Top Recipients of Campaign Funds from Coal & Utility Industries</h5>
         <ul>
