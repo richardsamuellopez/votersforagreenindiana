@@ -51,12 +51,12 @@ const CandidatePage = () => {
       </p>
       <p>
         <span style={{fontSize:'1.5em'}}className="uppercase bold">FIND CANDIDATE VIEWS HERE - </span>
-        <DocList search="Candidate Views" />
+        {/* <DocList search="Candidate Views" /> */}
       </p>
       </div>
       <div className="item">
         <ul>
-          <DocList search="Candidate Views" />
+          {/* <DocList search="Candidate Views" /> */}
           <DocList search="Campaign" />
         </ul>
       </div>
