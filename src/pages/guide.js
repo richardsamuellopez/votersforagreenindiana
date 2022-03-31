@@ -23,6 +23,7 @@ const GuidePage = () => {
         <ul>
           {/* <DocList search="2020" exclude="Press" /> */}
           {/* <DocList search="Campaign" /> */}
+          <DocList search="Green Voters Guide" />
           <DocList search="Solar" />
           {/* <DocList search="Press" /> */}
         </ul>
