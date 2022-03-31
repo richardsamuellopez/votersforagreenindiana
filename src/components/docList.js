@@ -6,7 +6,7 @@ const DocList = ({search, exclude}) => {
    {
      allFile(
        filter: {
-        extension: { in: ["pdf", "docx"] }
+        extension: { in: ["pdf"] }
        }
        sort: {
         fields: [name]
