@@ -24,25 +24,23 @@ const CandidatePage = () => {
       <p>
         Due to limited volunteer time and resources, only major party candidates in select contested races were evaluated.
       </p>
-      <h4 className="underline">Election Information</h4>
+      <h4 className="underline">Election Information for 2022 Indiana Primary</h4>
       <ul>
         <li>
-          Voter registration ends October 5.
+          Early voting begins April 5.  Find location & hours <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a> or at your local county Election Office.
         </li>
         <li>
-          Early voting begins October 6.  Find location & hours <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a> or at your local county Election Office.
+          PRIMARY ELECTION DAY is on Tuesday, May 3.
+          Polls are open 6 am - 6 pm, prevailing local time.
         </li>
         <li>
-          Applications to Vote By Mail are due October 22, 11:59 pm (local time). Apply online <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a>.
+          To see your ballot, your voting location, and voting status, go to <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">https://indianavoters.in.gov/</a>.
         </li>
         <li>
-          Mail-in absentee ballots must be received by 12 noon (local time), November 3, so be certain to mail in early. Absentee ballots can also be dropped off at your county Election Office during office hours.  More info here.
+          To find your new districts, go to <a href="http://iga.in.gov/legislative/find-legislators/" target="_blank" rel="noopener noreferrer">http://iga.in.gov/legislative/find-legislators/</a>
         </li>
         <li>
-          Election Day is November 3, 6 am – 6 pm.
-        </li>
-        <li>
-          To see who’s on your ballot, go to <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">https://indianavoters.in.gov/</a>.  Then to get into your Voter Portal, click on either “CHECK VOTING STATUS” or “VOTING LOCATION”.
+          You will need to ask for either a Republican or Democratic ballot. Please note Indiana has an open primary which means anyone can vote in EITHER primary. However, anyone wishing to run as a candidate in the future might not want to vote outside of their party.
         </li>
       </ul>
       <p>
