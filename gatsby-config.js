@@ -38,6 +38,14 @@ module.exports = {
         path: `${__dirname}/src/docs`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `candidates`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    `gatsby-transformer-csv`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

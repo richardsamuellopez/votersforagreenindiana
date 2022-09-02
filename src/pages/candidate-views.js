@@ -4,14 +4,15 @@ import SEO from "../components/seo"
 
 import './candidate-views.css'
 import DocList from "../components/docList";
+import CandidateList from "../components/candidateList";
 
 const CandidatePage = () => {
  return (
   <Layout>
     <SEO title="Candidate Views Questionaire & Answers" />
     <h1 className="uppercase">Candidate Views</h1>
-    <div className="flex-container">
-     <div className="item">
+    <div className="">
+     <div className="">
       <p>
         There are many reasons to vote for a candidate: party affiliation, position on taxes, jobs and national security.  Whether you’re Republican, Democrat or Independent, we’d like you to consider the candidate’s views on energy, environment and climate when making your decision.
       </p>
@@ -51,12 +52,9 @@ const CandidatePage = () => {
         <span style={{fontSize:'1.5em'}}className="uppercase bold">FIND CANDIDATE VIEWS HERE - </span>
         <DocList search="Candidate Views" />
       </p>
-      </div>
-      <div className="item">
-        <ul>
-          <DocList search="Candidate Views" />
-          <DocList search="Campaign" />
-        </ul>
+      <p>
+        <CandidateList />
+      </p>
       </div>
     </div>
   </Layout>
