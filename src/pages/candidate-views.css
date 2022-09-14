@@ -12,6 +12,47 @@
     flex: 1 1 30%;
 }
 
+.gvg-race-row {
+    border: 1px solid black;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.green {
+    color: #018038;
+}
+
+.gvg-race {
+    font-weight: bold;
+}
+
+.gvg-candidate-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.gvg-preferred img {
+    margin-top: 4px;
+}
+
+.gvg-preferred {
+    display: inline-block;
+    min-width: 50px;
+}
+
+.gvg-name {
+    font-weight: bold;
+}
+
+.gvg-incumbent {
+    padding-left: 5px;
+    font-weight:normal;
+}
+
+.gvg-info {
+    font-style: italic;
+}
+
 @media (max-width: 800px) {
     .candidate-row {
         flex-wrap: wrap;
