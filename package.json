@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "voters-for-a-green-indiana",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Voters for a green Indiana built with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Richard Lopez <richardsamuellopez@gmail.com>",
   "dependencies": {
     "gatsby": "^4.23.0",
     "gatsby-image": "^3.11.0",
