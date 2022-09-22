@@ -24,23 +24,20 @@ const CandidatePage = () => {
       <p>
         Due to limited volunteer time and resources, only major party candidates in select contested races were evaluated.
       </p>
-      <h4 className="underline">Election Information for 2022 Indiana Primary</h4>
+      <h4 className="underline">Election Information for 2022 Indiana General Election</h4>
       <ul>
         <li>
-          Early voting begins April 5.  Find location & hours <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a> or at your local county Election Office.
+          Early voting begins October 12th.  Find location & hours <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a> or at your local County Election Office.
         </li>
         <li>
-          PRIMARY ELECTION DAY is on Tuesday, May 3.
+          GENERAL ELECTION DAY is on Tuesday, November 8.
           Polls are open 6 am - 6 pm, prevailing local time.
         </li>
         <li>
-          To see your ballot, your voting location, and voting status, go to <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">https://indianavoters.in.gov/</a>.
+          To see your ballot, your voting location, and voting status, go to <a href="https://ballotpedia.org/Sample_Ballot_Lookup" target="_blank" rel="noopener noreferrer">Ballotpedia</a>.
         </li>
         <li>
-          To find your new districts, go to <a href="http://iga.in.gov/legislative/find-legislators/" target="_blank" rel="noopener noreferrer">http://iga.in.gov/legislative/find-legislators/</a>
-        </li>
-        <li>
-          You will need to ask for either a Republican or Democratic ballot. Please note Indiana has an open primary which means anyone can vote in EITHER primary. However, anyone wishing to run as a candidate in the future might not want to vote outside of their party.
+          The state website doesn’t have the new districts as of 9/22/22.
         </li>
       </ul>
       <p>
