@@ -28,7 +28,7 @@ const GVGCandidateList = ({query}) => {
                         <h2 className="gvg-race green">U.S. HOUSE OF REPRESENTATIVES</h2>
                     }
                     { race.Race !== 'U.S. SENATE' ?
-                        <div className="gvg-race">{race.Race}</div>
+                        <h3 className="gvg-race">{race.Race}</h3>
                         : <h2 className="gvg-race green">{race.Race}</h2>
                     }
                     <div className="gvg-race-row">
