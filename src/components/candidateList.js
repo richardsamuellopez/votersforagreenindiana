@@ -21,6 +21,7 @@ const CandidateList = ({query}) => {
         {data.allCandidatesCsv.nodes.map((race, index) => {
             return (
                 <div className="candidate-row">
+                    <a name={race.Race.replace(/ /g, '')}></a>
                     <div className="candidate-item">{race.Race}</div>
                     <div className="candidate-item">{race.Republican}</div>
                     <div className="candidate-item">{race.Democrat}</div>

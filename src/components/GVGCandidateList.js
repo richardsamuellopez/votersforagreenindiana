@@ -32,6 +32,7 @@ const GVGCandidateList = ({query}) => {
                         : <h2 className="gvg-race green">{race.Race}</h2>
                     }
                     <div className="gvg-race-row">
+                        <a name={race.Race.replace(/ /g, '')}></a>
                         <div className="gvg-candidate-item">
                                 <div className="gvg-preferred">&nbsp;{race.Preferred==='R' && <Check />}</div>
                                 <div className="gvg-column-2">
