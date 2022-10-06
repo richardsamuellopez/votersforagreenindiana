@@ -54,7 +54,7 @@ const GVGCandidateList = ({query}) => {
                         <div className="gvg-candidate-item">
                             <div className="gvg-preferred"></div>
                             <div className="gvg-column-2">
-                                <a href={race.Link}>Read more about these candidates.</a>
+                                <a href={race.Link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
                             </div>
                         </div>
                     </div>
