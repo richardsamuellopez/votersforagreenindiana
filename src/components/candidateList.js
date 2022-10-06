@@ -9,7 +9,12 @@ const CandidateList = ({query}) => {
             nodes {
                 Race
                 Republican
+                Rinfo
                 Democrat
+                Dinfo
+                Incumbent
+                Preferred
+                Link
             }
         }
     }
@@ -20,12 +25,14 @@ const CandidateList = ({query}) => {
         {/* {data.allCandidatesCsv.nodes.filter(c => c.Race === 'U.S. SENATE').map((race, index) => { */}
         {data.allCandidatesCsv.nodes.map((race, index) => {
             return (
-                <div className="candidate-row">
-                    <a name={race.Race.replace(/ /g, '')}></a>
-                    <div className="candidate-item">{race.Race}</div>
-                    <div className="candidate-item">{race.Republican}</div>
-                    <div className="candidate-item">{race.Democrat}</div>
-                </div>
+                <a href={race.Link} style={{display: 'block'}} target="_blank" rel="noopener noreferrer">
+                    <div className="candidate-row">
+                        <a name={race.Race.replace(/ /g, '')}></a>
+                        <div className="candidate-item">{race.Race}</div>
+                        <div className="candidate-item">{race.Republican}</div>
+                        <div className="candidate-item">{race.Democrat}</div>
+                    </div>
+                </a>
             )
         })}
         </div>
