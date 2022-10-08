@@ -27,6 +27,9 @@ const GVGCandidateList = ({query}) => {
                     { index === 1 &&
                         <h2 className="gvg-race green">U.S. HOUSE OF REPRESENTATIVES</h2>
                     }
+                    { race.Race === 'INDIANA STATE SENATE DISTRICT 4' &&
+                       <h2 className="gvg-race green">INDIANA STATE HOUSE</h2>
+                    }
                     { race.Race !== 'U.S. SENATE' ?
                         <h3 className="gvg-race">{race.Race}
                             <a name={race.Race.replace(/ /g, '')}></a>
@@ -38,14 +41,14 @@ const GVGCandidateList = ({query}) => {
                     }
                     <div className="gvg-race-row">
                         <div className="gvg-candidate-item">
-                                <div className="gvg-preferred">&nbsp;{race.Preferred==='R' && <Check />}</div>
+                                <div className="gvg-preferred">{(race.Preferred==='R' || race.Preferred==='BOTH')&& <Check />}</div>
                                 <div className="gvg-column-2">
                                     <div className="gvg-name">{race.Republican} - R<span className="gvg-incumbent">{race.Incumbent==='R' && "(Incumbent)"}</span></div>
                                     <div className="gvg-info">{race.Rinfo}</div>
                                 </div>
                         </div>
                         <div className="gvg-candidate-item">
-                                <div className="gvg-preferred">{race.Preferred==='D' && <Check />}</div>
+                                <div className="gvg-preferred">{(race.Preferred==='D' || race.Preferred==='BOTH')&& <Check />}</div>
                                 <div className="gvg-column-2">
                                     <div className="gvg-name">{race.Democrat} - D<span className="gvg-incumbent">{race.Incumbent==='D' && "(Incumbent)"}</span></div>
                                     <div className="gvg-info">{race.Dinfo}</div>
