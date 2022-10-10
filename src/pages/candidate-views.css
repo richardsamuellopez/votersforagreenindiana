@@ -37,8 +37,19 @@
 
 .gvg-preferred {
     display: inline-block;
-    min-width: 50px;
+    min-width: 80px;
 }
+
+.potential-advocate {
+    padding-left: 10px;
+    width: 80px;
+    font-size: 14px;
+    color: green;
+ }
+
+ .second-check {
+    margin-left: -20px;
+ }
 
 .gvg-name {
     font-weight: bold;

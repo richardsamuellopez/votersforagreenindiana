@@ -26,7 +26,7 @@ const Check = () => {
     }
   `);
 
-  return <div className="logo"><Img fixed={image.placeholderImage.childImageSharp.fixed} /></div>
+  return <div className="check"><Img fixed={image.placeholderImage.childImageSharp.fixed} /></div>
 }
 
 export default Check

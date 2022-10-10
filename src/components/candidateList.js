@@ -28,7 +28,7 @@ const CandidateList = ({query}) => {
                 <a href={race.Link} style={{display: 'block'}} target="_blank" rel="noopener noreferrer">
                     <div className="candidate-row">
                         <a name={race.Race.replace(/ /g, '')}></a>
-                        <div className="candidate-item">{race.Race}</div>
+                        <div className="candidate-item">{race.Race.replace('STATE', '')}</div>
                         <div className="candidate-item">{race.Republican}</div>
                         <div className="candidate-item">{race.Democrat}</div>
                     </div>
