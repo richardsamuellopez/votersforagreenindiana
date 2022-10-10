@@ -47,7 +47,7 @@
     color: green;
  }
 
- .second-check {
+ .check ~ .check {
     margin-left: -20px;
  }
 
