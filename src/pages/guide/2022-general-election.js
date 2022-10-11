@@ -8,6 +8,7 @@ const GeneralElectionPage = () => {
  return (
   <Layout>
     <SEO title="Green voters guide" />
+    <h1>GREEN VOTERS GUIDE</h1>
     <h1>2022 General Election</h1>
         <GVGCandidateList />
   </Layout>

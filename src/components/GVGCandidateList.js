@@ -23,7 +23,6 @@ const GVGCandidateList = ({query}) => {
     `);
 
     return (<div className="candidate-list">
-        <h1>GREEN VOTERS GUIDE</h1>
         {data.allCandidatesCsv.nodes.map((race, index) => {
             return (
                 <div>
