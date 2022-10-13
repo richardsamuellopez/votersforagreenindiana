@@ -22,10 +22,32 @@ const GVGCandidateList = ({query}) => {
     }
     `);
 
+    const getCountyRaceName = (race) => {
+        let myArray = race.split(' ');
+        myArray.shift();
+        return myArray.join(' ');
+        
+    };
+
+    const getCountyRaceAnchor = (race) => {
+        let myArray = race.split(' ');
+        myArray = myArray.map(item => camelize(item));
+        myArray[1]='Co';
+        myArray[3]='Dist';
+        return myArray.join('');
+    };
+
+    const camelize = s => s && s[0].toUpperCase() + s.slice(1).toLowerCase();
+
     return (<div className="candidate-list">
         {data.allCandidatesCsv.nodes.map((race, index) => {
             return (
                 <div>
+                    { index === 0 &&
+                        <h2 className="gvg-race green">{race.Race.replace('STATE', '')}
+                            <a name={race.Race.replace(/ /g, '')}></a>
+                        </h2>
+                    }
                     { index === 1 &&
                         <h2 className="gvg-race green">U.S. HOUSE OF REPRESENTATIVES</h2>
                     }
@@ -35,15 +57,28 @@ const GVGCandidateList = ({query}) => {
                     { race.Race === 'INDIANA STATE HOUSE DISTRICT 5' &&
                        <h2 className="gvg-race green">INDIANA STATE HOUSE</h2>
                     }
+                    { race.Race === 'BARTHOLOMEW COUNTY COUNCIL DISTRICT 1' &&
+                        <h2 className="gvg-race green">BARTHOLOMEW COUNTY</h2>
+                    }
+                    { race.Race === 'HAMILTON COUNTY COUNCIL DISTRICT 2' &&
+                        <h2 className="gvg-race green">HAMILTON COUNTY</h2>
+                    }
+                    { race.Race === 'PORTER COUNTY COMMISSIONER DISTRICT 2' &&
+                        <h2 className="gvg-race green">PORTER COUNTY COMM</h2>
+                    }
+                    { race.Race === 'TIPPECANOE COUNTY COUNCIL DISTRICT 4' &&
+                        <h2 className="gvg-race green">TIPPECANOE COUNTY</h2>
+                    }
 
-                    { race.Race !== 'U.S. SENATE' ?
+                    { (race.Race.includes('U.S. HOUSE') || race.Race.includes('STATE')) &&
                         <h3 className="gvg-race">{race.Race.replace('STATE', '')}
                             <a name={race.Race.replace(/ /g, '')}></a>
                         </h3>
-                        :
-                        <h2 className="gvg-race green">{race.Race.replace('STATE', '')}
-                            <a name={race.Race.replace(/ /g, '')}></a>
-                        </h2>
+                    }
+                    { race.Race.includes('COUNTY') &&
+                        <h3 className="gvg-race">{getCountyRaceName(race.Race)}
+                            <a name={getCountyRaceAnchor(race.Race)}></a>
+                        </h3>
                     }
                     <div className="gvg-race-row">
                         <div className="gvg-candidate-item">
