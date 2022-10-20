@@ -8,10 +8,12 @@ const CandidateList = ({query}) => {
         allCandidatesCsv {
             nodes {
                 Race
-                Republican
-                Rinfo
-                Democrat
-                Dinfo
+                PartyA
+                PartyB
+                CandidateA
+                InfoA
+                CandidateB
+                InfoB
                 Incumbent
                 Preferred
                 Link
@@ -41,8 +43,8 @@ const CandidateList = ({query}) => {
                     <div className="candidate-row">
                         <a name={getRaceAnchor(race.Race)}></a>
                         <div className="candidate-item">{race.Race.replace('STATE', '')}</div>
-                        <div className="candidate-item">{race.Republican}</div>
-                        <div className="candidate-item">{race.Democrat}</div>
+                        <div className="candidate-item">{race.CandidateA}</div>
+                        <div className="candidate-item">{race.CandidateB}</div>
                     </div>
                 </a>
             )

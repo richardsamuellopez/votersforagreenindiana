@@ -8,10 +8,12 @@ const GVGCandidateList = ({query}) => {
         allCandidatesCsv {
             nodes {
                 Race
-                Republican
-                Rinfo
-                Democrat
-                Dinfo
+                PartyA
+                PartyB
+                CandidateA
+                InfoA
+                CandidateB
+                InfoB
                 Incumbent
                 Preferred
                 Double
@@ -90,8 +92,8 @@ const GVGCandidateList = ({query}) => {
                                     { (race.Potential === 'R' || race.Potential === 'BOTH') && <div className="potential-advocate">Potential Advocate</div> }
                                 </div>
                                 <div className="gvg-column-2">
-                                    <div className="gvg-name">{race.Republican} - R<span className="gvg-incumbent">{race.Incumbent==='R' && "(Incumbent)"}</span></div>
-                                    <div className="gvg-info">{race.Rinfo}</div>
+                                    <div className="gvg-name">{race.CandidateA} - {race.PartyA}<span className="gvg-incumbent">{race.Incumbent==='R' && "(Incumbent)"}</span></div>
+                                    <div className="gvg-info">{race.InfoA}</div>
                                 </div>
                         </div>
                         <div className="gvg-candidate-item">
@@ -103,8 +105,8 @@ const GVGCandidateList = ({query}) => {
                                     { (race.Potential === 'D' || race.Potential === 'BOTH') && <div className="potential-advocate">Potential Advocate</div> }
                                 </div>
                                 <div className="gvg-column-2">
-                                    <div className="gvg-name">{race.Democrat} - D<span className="gvg-incumbent">{race.Incumbent==='D' && "(Incumbent)"}</span></div>
-                                    <div className="gvg-info">{race.Dinfo}</div>
+                                    <div className="gvg-name">{race.CandidateB} - {race.PartyB}<span className="gvg-incumbent">{race.Incumbent==='D' && "(Incumbent)"}</span></div>
+                                    <div className="gvg-info">{race.InfoB}</div>
                                 </div>
                         </div>
                         <div className="gvg-candidate-item">
