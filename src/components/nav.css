@@ -37,6 +37,10 @@ nav li a:hover {
     color: green;
 }
 
+nav li a:visited {
+    color: white;
+}
+
 nav li a {
     color: white;
     padding: 12px 16px;
