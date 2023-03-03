@@ -31,7 +31,6 @@ const CandidatePage = () => {
     <SEO title="Candidate Views Questionaire & Answers" />
     <h1 className="uppercase">Candidate Views</h1>
     <div className="">
-     <div className="">
       <p>
         There are many reasons to vote for a candidate: party affiliation, position on taxes, jobs and national security. Here, you’ll get a review of the candidate’s views on clean energy, clean air, clean water, climate and sustainability!  Where available, it includes the candidate’s policy positions, voting record, ratings and a listing of campaign contributions from the fossil fuel industry based on publicly available information.
       </p>
@@ -54,7 +53,6 @@ const CandidatePage = () => {
         This is a primary election so you need to ask for a Republican or Democratic Party ballot. Indiana has an <span STYLE="text-decoration:underline">open</span> primary which means anyone can vote in EITHER primary. However, anyone wishing to run as a candidate in the future might not want to vote in the primary for the other party.
       </p>
       {/* <CandidateList data={data.allCandidates2022Csv} /> */}
-      </div>
     </div>
   </Layout>
  )
