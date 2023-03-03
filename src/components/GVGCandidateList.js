@@ -1,29 +1,7 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import Check from './check';
 
-const GVGCandidateList = ({query}) => {
-    const data = useStaticQuery(graphql`
-    {
-        allCandidatesCsv {
-            nodes {
-                Race
-                PartyA
-                PartyB
-                CandidateA
-                InfoA
-                CandidateB
-                InfoB
-                Incumbent
-                Preferred
-                Double
-                Potential
-                Link
-            }
-        }
-    }
-    `);
-
+const GVGCandidateList = ({data}) => {
     const getCountyRaceName = (race) => {
         let myArray = race.split(' ');
         myArray.shift();
@@ -42,7 +20,7 @@ const GVGCandidateList = ({query}) => {
     const camelize = s => s && s[0].toUpperCase() + s.slice(1).toLowerCase();
 
     return (<div className="candidate-list">
-        {data.allCandidatesCsv.nodes.map((race, index) => {
+        {data.nodes.map((race, index) => {
             return (
                 <div>
                     { index === 0 &&

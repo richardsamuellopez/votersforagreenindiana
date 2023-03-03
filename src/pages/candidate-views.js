@@ -5,8 +5,27 @@ import SEO from "../components/seo"
 import './candidate-views.css'
 import DocList from "../components/docList";
 import CandidateList from "../components/candidateList";
+import { useStaticQuery, graphql } from "gatsby"
 
 const CandidatePage = () => {
+  const data = useStaticQuery(graphql`
+    {
+        allCandidates2022Csv {
+            nodes {
+                Race
+                PartyA
+                PartyB
+                CandidateA
+                InfoA
+                CandidateB
+                InfoB
+                Incumbent
+                Preferred
+                Link
+            }
+        }
+    }
+    `);
  return (
   <Layout>
     <SEO title="Candidate Views Questionaire & Answers" />
@@ -49,9 +68,9 @@ const CandidatePage = () => {
         <span style={{fontSize:'1.5em'}}className="uppercase bold">FIND CANDIDATE VIEWS HERE - </span>
         <DocList search="Candidate Views" />
       </p>
-      <p>
-        <CandidateList />
-      </p>
+
+        <CandidateList data={data.allCandidates2022Csv} />
+
       </div>
     </div>
   </Layout>
