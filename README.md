@@ -11,4 +11,9 @@
     ```shell
     gatsby develop
     ```
+
+    ```shell
+    npm start
+    ```
+
     Your site is now running at `http://localhost:8000`!
