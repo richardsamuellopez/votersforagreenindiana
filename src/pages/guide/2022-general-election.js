@@ -8,24 +8,25 @@ import { useStaticQuery, graphql } from "gatsby"
 const GeneralElectionPage = () => {
   const data = useStaticQuery(graphql`
     {
-        allCandidates2022Csv {
-            nodes {
-                Race
-                PartyA
-                PartyB
-                CandidateA
-                InfoA
-                CandidateB
-                InfoB
-                Incumbent
-                Preferred
-                Double
-                Potential
-                Link
-            }
+      allCandidates2022Csv {
+        nodes {
+            Race
+            PartyA
+            PartyB
+            CandidateA
+            InfoA
+            CandidateB
+            InfoB
+            Incumbent
+            Preferred
+            Double
+            Potential
+            Link
         }
+      }
     }
-    `);
+  `);
+
  return (
   <Layout>
     <SEO title="Green voters guide" />
