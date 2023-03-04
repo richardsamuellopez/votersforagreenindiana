@@ -37,7 +37,7 @@ const CandidatePage = () => {
         In addition, candidates in select races are invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates are contacted several times; lack of a response to our inquiries is noted. Failure to provide voters with their positions indicates their opposition or low priority.
       </p>
       <p>
-        Due to limited volunteer time and resources, only major party candidates in select contested races were evaluated.
+        Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.
       </p>
       <h4 className="underline">2023 Indiana Primary Election is on May 2, 6 am – 6 pm</h4>
       <ul>
