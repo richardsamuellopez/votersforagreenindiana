@@ -24,9 +24,9 @@ const GuidePage = () => {
           {/* <DocList search="2020" exclude="Press" /> */}
           {/* <DocList search="Campaign" /> */}
           {/* <DocList search="Green Voters Guide" /> */}
-          <Link to={'2022-general-election'} style={{fontWeight: 'bold'}}>
+          {/* <Link to={'2022-general-election'} style={{fontWeight: 'bold'}}>
           2022 GENERAL ELECTION
-          </Link>
+          </Link> */}
           <DocList search="Solar" />
           {/* <DocList search="Press" /> */}
         </ul>

@@ -1,26 +1,6 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
-const CandidateList = ({query}) => {
-
-    const data = useStaticQuery(graphql`
-    {
-        allCandidatesCsv {
-            nodes {
-                Race
-                PartyA
-                PartyB
-                CandidateA
-                InfoA
-                CandidateB
-                InfoB
-                Incumbent
-                Preferred
-                Link
-            }
-        }
-    }
-    `);
+const CandidateList = ({data}) => {
 
     const getRaceAnchor = (race) => {
         let myArray = race.split(' ');
@@ -37,7 +17,7 @@ const CandidateList = ({query}) => {
     return (<div className="candidate-list">
 
         {/* {data.allCandidatesCsv.nodes.filter(c => c.Race === 'U.S. SENATE').map((race, index) => { */}
-        {data.allCandidatesCsv.nodes.map((race, index) => {
+        {data.nodes.map((race, index) => {
             return (
                 <a href={race.Link} style={{display: 'block'}} target="_blank" rel="noopener noreferrer">
                     <div className="candidate-row">

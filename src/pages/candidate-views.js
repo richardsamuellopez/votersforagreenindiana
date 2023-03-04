@@ -5,55 +5,53 @@ import SEO from "../components/seo"
 import './candidate-views.css'
 import DocList from "../components/docList";
 import CandidateList from "../components/candidateList";
+import { useStaticQuery, graphql } from "gatsby"
 
 const CandidatePage = () => {
+  const data = useStaticQuery(graphql`
+    {
+        allCandidates2022Csv {
+            nodes {
+                Race
+                PartyA
+                PartyB
+                CandidateA
+                InfoA
+                CandidateB
+                InfoB
+                Incumbent
+                Preferred
+                Link
+            }
+        }
+    }
+    `);
  return (
   <Layout>
     <SEO title="Candidate Views Questionaire & Answers" />
     <h1 className="uppercase">Candidate Views</h1>
-    <div className="">
-     <div className="">
       <p>
-        There are many reasons to vote for a candidate: party affiliation, position on taxes, jobs and national security.  Here, you can get a NON-PARTISAN review of the candidate’s views on energy, environment and climate when making your decision.
+        There are many reasons to vote for a candidate: party affiliation, position on taxes, jobs and national security. Here, you’ll get a review of the candidate’s views on clean energy, clean air, clean water, climate and sustainability!  Where available, it includes the candidate’s policy positions, voting record, ratings and a listing of campaign contributions from the fossil fuel industry based on publicly available information.
       </p>
       <p>
-        VGI volunteers put together non-partisan resources to help inform voters. Where available, it includes a summary of the candidate’s policy positions, voting record, ratings and a listing of campaign contributions from the fossil fuel industry based on publicly available information.
+        In addition, candidates in select races are invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates are contacted several times; lack of a response to our inquiries is noted. Failure to provide voters with their positions indicates their opposition or low priority.
       </p>
       <p>
-        In addition, candidates in select races were invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates were contacted multiple times; lack of a response to our inquiries is noted. Failure to provide voters with their positions indicates their opposition or low priority.
+        Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.
       </p>
-      <p>
-        Due to limited volunteer time and resources, only major party candidates in select contested races were evaluated.
-      </p>
-      <h4 className="underline">Election Information for 2022 Indiana General Election</h4>
+      <h4 className="underline">2023 Indiana Primary Election is on May 2, 6 am – 6 pm</h4>
       <ul>
         <li>
-          Early voting begins October 12th.  Find location & hours <a href="https://indianavoters.in.gov/" target="_blank" rel="noopener noreferrer">here</a> or at your local County Election Office.
+          Early voting begins April 4th.  Find location & hours at your local County Election Office.
         </li>
         <li>
-          GENERAL ELECTION DAY is on Tuesday, November 8.
-          Polls are open 6 am - 6 pm, prevailing local time.
-        </li>
-        <li>
-          To see your ballot, your voting location, and voting status, go to <a href="https://ballotpedia.org/Sample_Ballot_Lookup" target="_blank" rel="noopener noreferrer">Ballotpedia</a>.
-        </li>
-        <li>
-          The state website doesn’t have the new districts as of 9/22/22.
+          Register to Vote or Check Voting Status at the <a href="https://indianavoters.in.gov/">Indiana Voter Portal</a>.  Check Voting Status will also show who’s on your ballot and voting locations
         </li>
       </ul>
       <p>
-        <span style={{fontSize:'1.5em'}}className="uppercase bold">FIND YOUR LEGISLATORS HERE - </span>
-        <a href="http://iga.in.gov/legislative/find-legislators/" target="_blank" rel="noopener noreferrer">http://iga.in.gov/legislative/find-legislators/</a>
+        This is a primary election so you need to ask for a Republican or Democratic Party ballot. Indiana has an <span STYLE="text-decoration:underline">open</span> primary which means anyone can vote in EITHER primary. However, anyone wishing to run as a candidate in the future might not want to vote in the primary for the other party.
       </p>
-      <p>
-        <span style={{fontSize:'1.5em'}}className="uppercase bold">FIND CANDIDATE VIEWS HERE - </span>
-        <DocList search="Candidate Views" />
-      </p>
-      <p>
-        <CandidateList />
-      </p>
-      </div>
-    </div>
+      {/* <CandidateList data={data.allCandidates2022Csv} /> */}
   </Layout>
  )
 }
