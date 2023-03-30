@@ -22,7 +22,7 @@ const GVGCandidateList = ({data}) => {
     return (<div className="candidate-list">
         {data.nodes.map((race, index) => {
             return (
-                <div>
+                <div key={index}>
                     { index === 0 &&
                         <h2 className="gvg-race green">{race.Race.replace('STATE', '')}
                             <a name={race.Race.replace(/ /g, '')}></a>
