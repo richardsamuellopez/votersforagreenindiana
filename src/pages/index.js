@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DocList from "../components/docList";
 import './index.css';
+import {Link} from "gatsby";
 
 const IndexPage = () => (
   <Layout>
@@ -34,6 +35,7 @@ const IndexPage = () => (
       <div className="item">
         <ul>
           {/* <DocList search="Press Release" /> */}
+          <Link to={'https://drive.google.com/file/d/1lvLs-90AJ8R8oOuDJ1TExGPHgeT8byOU/view?usp=share_link'}>2023 Municipal Primary – Press Release</Link>
         </ul>
       </div>
     </div>

@@ -29,6 +29,7 @@ const GuidePage = () => {
           </Link> */}
           <DocList search="Solar" />
           {/* <DocList search="Press" /> */}
+          <Link to={'/guide/2023-primary/'}>Green Voters Guide for the 2023 Municipal Primary</Link>
         </ul>
       </div>
     </div>
