@@ -1,2 +1,24 @@
-Race,PartyA,PartyB,CandidateA,InfoA,CandidateB,InfoB,Incumbent,Preferred,Double,Potential,Link
-,,,,,,,,,,,
+Race,Name1,Party1,Preferred1,Potential1,Double1,Incumbent1,Uncontested1,Info1,Name2,Party2,Preferred2,Potential2,Double2,Incumbent2,Uncontested2,Info2,Name3,Party3,Preferred3,Potential3,Double3,Incumbent3,Uncontested3,Info3,Name4,Party4,Preferred4,Potential4,Double4,Incumbent4,Uncontested4,Info4,Name5,Party5,Preferred5,Potential5,Double5,Incumbent5,Uncontested5,Info5,RaceInfo,Link
+Carmel Mayor,Sue Finkam,R,Y,,,,,,Fred Glynn,R,,,,,,,Kevin "Woody" Rider,R,,Y,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1yqXP2yCA_6Y4mGb7MYv8OyL08xhZx9Rj&usp=drive_copy
+Carmel City Council At Large (3 to be elected),Jonathan K. Blake,R,,,,,,,Matthew J. Snyder,R,,Y,,,,,Rich Taylor,R,Y,,,,,,Jeff Worrell,R,,Y,,,,,,,,,,,,,,https://drive.google.com/open?id=1WYw-RO6AZ1tvaT7S9_tVXKTPBAfK8IPB&usp=drive_copy
+Carmel City Council North Central District,Teresa Ayers,R,,,,,,,Chuck Ford,R,,,,,,,Leah York,R,Y,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1sgT12tWsSCalSFxerZRMAqEwKrakiGmt&usp=drive_copy
+Carmel City Council Northeast District,Jason Engle,R,,,,,,,Shannon Minnaar,R,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1O3C3--az8Uv1WCKn-MBh6l29_bs8RdAl&usp=drive_copy
+Carmel City Council Northwest District,Sheldon Barnes,R,,,,,,,Ryan Locke,R,Y,,,,,,Danny Niederberger,R,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1pNjd1e4W6HlnWDRq3c2dTP8Nx1UqdnEL&usp=drive_copy
+Carmel City Council South Central District,Anthony (Tony) Greens,R,,,,,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Carmel City Council Southeast District,Adam Aasen,R,,,,,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Carmel City Council West District,Loren Matthes,R,,Y,,,,,Ven Tadikonda,R,,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1nRbJ8kZSWXy-3kyDhv4J-kMCEO-PfxdS&usp=drive_copy
+Columbus Mayor,Mary Ferdon,R,Y,,,,,,Milo Smith,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1ZmoMQb7XybHGKDxYPYSnS18Gl491s5Dl&usp=drive_copy
+Evansville Mayor,Cheryl A. W. Musgrave,R,,,,,,,Natalie Rascher,R,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1rxBPG-W2iyZGBgYUQyxDjbIOAM0uwlRE&usp=drive_copy
+Lebanon Mayor,Matthew T Gentry,R,,,,,,,Kevin Van Horn,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,We regret that neither candidate is a strong advocate for climate solutions.,https://drive.google.com/open?id=10EM9qC6hmc4xeHcxWt314q28CSHNurjM&usp=drive_copy
+Noblesville Council At Large (3 to be elected),Evan Elliott,R,,,,,,,Mike Field,R,,,,,,,Nick Gomillion,R,Y,,,,,,Darren Peterson,R,Y,,,,,,Pete Schwartz,R,,,,,,,,https://drive.google.com/open?id=1gGW9fPRr338INskvsoizul9TBMYxr-VI&usp=drive_copy
+Noblesville Council Disttrict 5,Dave Johnson,R,,,,,,,Rocky Shanehsaz,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,We regret that neither candidate is a strong advocate for climate solutions.,https://drive.google.com/open?id=1kaA9j_X7jgUNP6sQ9QjYhDSjw8rM_R3v&usp=drive_copy
+Westfield Mayor,Kristen Burkman,R,,,,,,,Jake Gilbert,R,,,,,,,Scott Willis,R,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=16kQWbFbhk-IaBgNzMazecdhse5diKJiR&usp=drive_copy
+Westfield City Council At Large (2 to be electd),Chad Huff,R,,,,,,,Brian Tomamichel,R,Y,,,,,,Kurt J. Wanninger,R,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1T9I6e9Qg-YT_-2nmjix5iIjxmxEePpd7&usp=drive_copy
+Westfield City Council Disttrict 1,Jon Dartt,R,,,,,,,Mark F. Keen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,We regret that neither candidate is a strong advocate for climate solutions.,https://drive.google.com/open?id=1GCCLCMirr_wcn-Zq4jdoKRrmtzSRS_NU&usp=drive_copy
+Westfield City Council Disttrict 2,Andrew Bouse,R,,,,,,,Victor McCarty,R,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1kDLsX1dDNBCUl7ZNS0W4-Lki78RvjlHH&usp=drive_copy
+Westfield City Council Disttrict 3,Joe Duepner,R,,,,,,,Justin C Griffiths,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,We regret that neither candidate is a strong advocate for climate solutions.,https://drive.google.com/open?id=1r8seDKBSY2GT9xYEUXRD6EF2RowdCKuj&usp=drive_copy
+Westfield City Council Disttrict 4,Scott Frei,R,,,,,,,Patrick T. Tamm,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1OKILb24anqoc3FFHab2--T3X_eqeh1lO&usp=drive_copy
+Westfield City Council Disttrict 5,Noah Herron,R,Y,,,,,,Mike Johns,R,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1zqIgzxjRD-EpEMiix7KdgFDt1eKSu3Q9&usp=drive_copy
+Zionsville Mayor,Jane Burgess,R,,,,,,,John Stehr,R,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1DVmexeumz3kvqSaaEI98PYy_MRDwJQMR&usp=drive_copy
+Zionsville Town District 3,Kyle Campbell,R,,,,,,,Kendrick Davis,R,Y,,,,,,Craig J Melton,R,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1pMwLMHDYpNHLrOHJ_cS1yNCRO_4Jcp_m&usp=drive_copy
+Zionsville Town District 4,Heather Lusk,R,,Y,,,,,Nicholas E Plopper,R,,,,,,,Sarah Esterline Sampson,R,,,,,,,,,,,,,,,,,,,,,,,,https://drive.google.com/open?id=1ViKBRPkrotdhS5Qj0AXMEFOPQIsM7E-Z&usp=drive_copy
