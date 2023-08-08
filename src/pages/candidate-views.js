@@ -56,7 +56,8 @@ const CandidatePage = () => {
           {/* <CandidateList data={data.allCandidates2022Csv} /> */}
         </div>
         <div className="item">
-          <Link to={'/candidate-views/2023-primary/'}>Candidate Views for the 2023 Municipal Primary</Link>
+        General Election info coming soon!
+          {/* <Link to={'/candidate-views/2023-primary/'}>Candidate Views for the 2023 Municipal Primary</Link> */}
         </div>
       </div>
   </Layout>
