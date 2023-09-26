@@ -29,9 +29,10 @@ const GuidePage = () => {
           </Link> */}
           <DocList search="Solar" />
           {/* <DocList search="Press" /> */}
-          <li><Link to={'/guide/2023GeneralGreenVotersGuide/'}>Green Voters Guide for the 2023 General Election</Link></li>
+          General Election info coming soon!
+          {/* <li><Link to={'/guide/2023GeneralGreenVotersGuide/'}>Green Voters Guide for the 2023 General Election</Link></li>
           <li><Link to={'/guide/GeneralElection/'}>Green Voters Guide for the 2023 General Election</Link></li>
-          <li><Link to={'/guide/PrimaryElection/'}>Green Voters Guide for the 2023 General Election</Link></li>
+          <li><Link to={'/guide/PrimaryElection/'}>Green Voters Guide for the 2023 General Election</Link></li> */}
         </ul>
       </div>
     </div>
