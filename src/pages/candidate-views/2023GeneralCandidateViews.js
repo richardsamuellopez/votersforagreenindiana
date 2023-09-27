@@ -7,10 +7,10 @@ import DocList from "../../components/docList";
 import CandidateList from "../../components/candidateList2";
 import { useStaticQuery, graphql } from "gatsby"
 
-const CandidateViewsPrimary2023 = () => {
+const CandidateViewsGeneral2023 = () => {
   const data = useStaticQuery(graphql`
   {
-    allPrimaryCandidates2023Csv {
+    allGeneralCandidates2023Csv {
       nodes {
         Race
           Name1
@@ -62,15 +62,15 @@ const CandidateViewsPrimary2023 = () => {
  return (
   <Layout>
     <SEO title="Candidate Views Questionaire & Answers" />
-    <h1 className="uppercase">2023 Primary Candidate Views</h1>
+    <h1 className="uppercase">2023 General Candidate Views</h1>
     <p>The Green Voters Guide represents a non-partisan evaluation of policies, positions, statements and votes to identify the "greener" candidate(s) within select races. The environmentally-friendly candidate(s) who in our opinion are most likely to address climate issues get a green checkmark. Due to limited resources, only major party candidates in select races are evaluated.</p>
-    <h2 className="green">2023 REPUBLICAN PRIMARY</h2>
-    <CandidateList style={{paddingBottom: '20px'}} data={data.allPrimaryCandidates2023Csv} />
+    <h2 className="green">2023 REPUBLICAN GENERAL</h2>
+    <CandidateList style={{paddingBottom: '20px'}} data={data.allGeneralCandidates2023Csv} />
 
-    <h2 className="green">2023 DEMOCRATIC PRIMARY</h2>
+    <h2 className="green">2023 DEMOCRATIC GENERAL</h2>
     <p>No contested races in Carmel, Westfield, Noblesville, Zionsville.</p>
   </Layout>
  )
 }
 
-export default CandidateViewsPrimary2023
+export default CandidateViewsGeneral2023

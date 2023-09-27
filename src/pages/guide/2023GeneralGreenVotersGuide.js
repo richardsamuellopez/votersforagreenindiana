@@ -5,10 +5,10 @@ import GVGCandidateList from "../../components/GVGCandidateList2"
 import '../candidate-views.css';
 import { useStaticQuery, graphql } from "gatsby"
 
-const GVGPrimary2023 = () => {
+const GVGGeneral2023 = () => {
   const data = useStaticQuery(graphql`
     {
-      allPrimaryCandidates2023Csv {
+      allGeneralCandidates2023Csv {
         nodes {
           Race
           Name1
@@ -63,13 +63,13 @@ const GVGPrimary2023 = () => {
     <SEO title="Green voters guide" />
     <h1>GREEN VOTERS GUIDE</h1>
     <p>The Green Voters Guide represents a non-partisan evaluation of policies, positions, statements and votes to identify the "greener" candidate(s) within select races. The environmentally-friendly candidate(s) who in our opinion are most likely to address climate issues get a green checkmark. Due to limited resources, only major party candidates in select races are evaluated.</p>
-    <h1 className="green">2023 REPUBLICAN PRIMARY</h1>
-        <GVGCandidateList data={data.allPrimaryCandidates2023Csv}/>
+    <h1 className="green">2023 REPUBLICAN GENERAL</h1>
+        <GVGCandidateList data={data.allGeneralCandidates2023Csv}/>
 
-    <h2 className="green">2023 DEMOCRATIC PRIMARY</h2>
+    <h2 className="green">2023 DEMOCRATIC GENERAL</h2>
     <p>No contested races in Carmel, Westfield, Noblesville, Zionsville.</p>
   </Layout>
  )
 }
 
-export default GVGPrimary2023
+export default GVGGeneral2023
