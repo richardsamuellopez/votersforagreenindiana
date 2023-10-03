@@ -1,0 +1,425 @@
+{
+  "title": "2023 GENERAL ELECTION",
+  "cities": [
+    {
+      "name": "Carmel",
+      "races": [
+        {
+          "name": "Mayor of Carmel",
+          "info": "",
+          "link": "",
+          "candidates": [
+            {
+              "name": "Miles Nelson",
+              "party": "D",
+              "preferred": "Y",
+              "potential": "",
+              "double": "y",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            },
+            {
+              "name": "Darin Johnson",
+              "party": "I",
+              "preferred": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            },
+            {
+              "name": "Sue Finkam",
+              "party": "R",
+              "preferred": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "name": "Carmel City Council, At Large (vote for 3)",
+          "info": "",
+          "link": "",
+          "candidates": [
+            {
+              "name": "Sara Draper",
+              "party": "D",
+              "preferred": "Y",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            },
+            {
+              "name": "Jake Madore",
+              "party": "D",
+              "preferred": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            },
+            {
+              "name": "Matthew J. Snyder",
+              "party": "R",
+              "preferred": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            },
+            {
+              "name": "Rich Taylor",
+              "party": "R",
+              "preferred": "y",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            },
+            {
+              "name": "Jeff Worrell",
+              "party": "R",
+              "preferred": "",
+              "potential": "Y",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "name": "Carmel City Council, North Central Dist",
+          "info": "",
+          "link": "",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name":	"Courtney Culver",
+              "party":	"D"
+            },
+            {
+              "name":"Teresa Ayers",
+              "party":"R"
+            }
+          ]
+        },
+
+        {
+          "name": "Carmel City Council, Northwest Dist",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name":	"Melanie Brown",
+              "party":	"D"
+            },
+            {
+
+              "name": "Ryan Locke",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Carmel City Council, South Central Dist",
+          "candidates" : [
+            {
+              "preferred": "Y",
+              "name":	"Jessica Irvine",
+              "party":	"D"
+            },
+            {
+              "potential": "Y",
+              "name": "Anthony (Tony) Green",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Carmel City Council, Southeast Dist",
+          "candidates"	: [
+            {
+              "preferred": "Y",
+              "double": "Y",
+              "name": "Jeremy Eltz",
+              "party": "D"
+            },
+            {
+              "preferred": "Y",
+              "name":	"Adam Aasen",
+              "party":	"R"
+            }
+          ]
+        },
+        {
+          "name": "Carmel City Council, West Dist",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "Anita JoshI",
+              "party": "D"
+            },
+            {
+              "name": "Loren Matthes",
+              "party": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVANSVILLE",
+      "races": [
+        {
+          "name": "Mayor of Evansville",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "STEPHANIE TERRY",
+              "party": "D"
+            },
+            {
+              "name": "MICHAEL DAUGHERTY",
+              "party": "L"
+            },
+            {
+              "name": "NATALIE RASCHER",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Evansville City Council, At Large (vote for 3)",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "MARY ALLEN",
+              "party": "D"
+            },
+            {
+              "preferred": "Y",
+              "name": "PAUL GREEN",
+              "party": "D"
+            },
+            {
+              "name": "COURTNEY L. JOHNSON",
+              "party": "D"
+            },
+            {
+              "preferred": "Y",
+              "name": "ED BASSEMIER ",
+              "party": "R"
+            },
+            {
+              "name": "RON BEANE",
+              "party": "R"
+            },
+            {
+              "name": "JONATHAN WEAVER",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Evansville City Council, Ward 1",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "BEN TROCKMAN",
+              "party": "D"
+            },
+            {
+              "name": "JOSHUA EDWARDS",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Evansville City Council, Ward 2",
+          "candidates": [
+            {
+              "name": "MISSY MOSBY",
+              "party": "D"
+            },
+            {
+              "preferred": "Y",
+              "name": "MAYTES RIVERA",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Evansville City Council, Ward 3",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "ZAC HERONEMUS",
+              "party": "D"
+            },
+            {
+              "preferred": "Y",
+              "name": "JOE KRATOCHVIL",
+              "party": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FISHERS",
+      "races": [
+        {
+          "name": "Fishers City Council, At Large (vote for 3)",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "Howard Stevenson",
+              "party": "D"
+            },
+            {
+              "preferred": "Y",
+              "name": "Jocelyn Vare",
+              "party": "D"
+            },
+            {
+              "preferred": "Y",
+              "name": "Cecilia Coble",
+              "party": "R"
+            },
+            {
+              "name": "Tiffanie Ditlevson",
+              "party": "R"
+            },
+            {
+            "name": "Todd Zimmerman",
+            "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Fishers City Council, NC Dist",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "Crystal Neumann",
+              "party": "D"
+            },
+            {
+              "name": "John P. Delucia",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Fishers City Council, NE Dist",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "Samantha R. Chapman",
+              "party": "D"
+            },
+            {
+              "name": "Brad Dereamer",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Fishers City Council, NW Dist",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "Bill Mclellan",
+              "party": "D"
+            },
+            {
+              "name": "Selina Stoller",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Fishers City Council, SC Dist",
+          "candidates": [
+            {
+              "name": "Lane Skeeters",
+              "party": "D"
+            },
+            {
+              "name": "John W. Weingardt",
+              "party": "R"
+            }
+          ]
+        },
+        {
+          "name": "Fishers City Council, SW Dist",
+          "candidates": [
+            {
+              "preferred": "Y",
+              "name": "Bill Stuart",
+              "party": "D"
+            },
+            {
+              "name": "David Giffel",
+              "party": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "races": [
+        {
+          "name": "",
+          "info": "",
+          "link": "",
+          "candidates": [
+            {
+              "name": "",
+              "party": "",
+              "preferred": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "races": [
+        {
+          "name": "",
+          "info": "",
+          "link": "",
+          "candidates": [
+            {
+              "name": "",
+              "party": "",
+              "preferred": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
