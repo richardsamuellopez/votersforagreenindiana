@@ -1,5 +1,6 @@
 {
-  "title": "2023 GENERAL ELECTION",
+  "title": "2023 general election",
+  "year": "2023",
   "cities": [
     {
       "name": "Carmel",
@@ -11,8 +12,8 @@
           "candidates": [
             {
               "name": "Miles Nelson",
-              "party": "D",
-              "preferred": "Y",
+              "party": "d",
+              "preferred": "y",
               "potential": "",
               "double": "y",
               "incumbent": "",
@@ -21,7 +22,7 @@
             },
             {
               "name": "Darin Johnson",
-              "party": "I",
+              "party": "i",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -31,7 +32,7 @@
             },
             {
               "name": "Sue Finkam",
-              "party": "R",
+              "party": "r",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -42,14 +43,14 @@
           ]
         },
         {
-          "name": "Carmel City Council, At Large (vote for 3)",
+          "name": "Carmel City Council, At Large (Vote For 3)",
           "info": "",
           "link": "",
           "candidates": [
             {
               "name": "Sara Draper",
-              "party": "D",
-              "preferred": "Y",
+              "party": "d",
+              "preferred": "y",
               "potential": "",
               "double": "",
               "incumbent": "",
@@ -58,7 +59,7 @@
             },
             {
               "name": "Jake Madore",
-              "party": "D",
+              "party": "d",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -68,7 +69,7 @@
             },
             {
               "name": "Matthew J. Snyder",
-              "party": "R",
+              "party": "r",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -78,7 +79,7 @@
             },
             {
               "name": "Rich Taylor",
-              "party": "R",
+              "party": "r",
               "preferred": "y",
               "potential": "",
               "double": "",
@@ -88,9 +89,9 @@
             },
             {
               "name": "Jeff Worrell",
-              "party": "R",
+              "party": "r",
               "preferred": "",
-              "potential": "Y",
+              "potential": "y",
               "double": "",
               "incumbent": "",
               "uncontested": "",
@@ -104,626 +105,696 @@
           "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name":	"Courtney Culver",
-              "party":	"D"
+              "preferred": "y",
+              "name": "Courtney Culver",
+              "party": "d"
             },
             {
-              "name":"Teresa Ayers",
-              "party":"R"
+              "name": "Teresa Ayers",
+              "party":"r"
             }
           ]
         },
 
         {
           "name": "Carmel City Council, Northwest Dist",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name":	"Melanie Brown",
-              "party":	"D"
+              "preferred": "y",
+              "name": "Melanie Brown",
+              "party": "d"
             },
             {
 
               "name": "Ryan Locke",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "Carmel City Council, South Central Dist",
-          "candidates" : [
+          "info": "",
+          "link": "",
+          "candidates": [
             {
-              "preferred": "Y",
-              "name":	"Jessica Irvine",
-              "party":	"D"
+              "preferred": "y",
+              "name": "Jessica Irvine",
+              "party": "d"
             },
             {
-              "potential": "Y",
+              "potential": "y",
               "name": "Anthony (Tony) Green",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "Carmel City Council, Southeast Dist",
-          "candidates"	: [
+          "info": "",
+          "link": "",
+          "candidates": [
             {
-              "preferred": "Y",
-              "double": "Y",
+              "preferred": "y",
+              "double": "y",
               "name": "Jeremy Eltz",
-              "party": "D"
+              "party": "d"
             },
             {
-              "preferred": "Y",
-              "name":	"Adam Aasen",
-              "party":	"R"
+              "preferred": "y",
+              "name": "Adam Aasen",
+              "party": "r"
             }
           ]
         },
         {
           "name": "Carmel City Council, West Dist",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name": "Anita JoshI",
-              "party": "D"
+              "preferred": "y",
+              "name": "Anita Joshi",
+              "party": "d"
             },
             {
               "name": "Loren Matthes",
-              "party": "R"
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "EVANSVILLE",
+      "name": "Evansville",
       "races": [
         {
           "name": "Mayor of Evansville",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name": "STEPHANIE TERRY",
-              "party": "D"
+              "preferred": "y",
+              "name": "Stephanie Terry",
+              "party": "d"
             },
             {
-              "name": "MICHAEL DAUGHERTY",
-              "party": "L"
+              "name": "Michael Daugherty",
+              "party": "l"
             },
             {
-              "name": "NATALIE RASCHER",
-              "party": "R"
+              "name": "Natalie Rascher",
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Evansville City Council, At Large (vote for 3)",
+          "name": "Evansville City Council, At Large (Vote For 3)",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name": "MARY ALLEN",
-              "party": "D"
+              "preferred": "y",
+              "name": "Mary Allen",
+              "party": "d"
             },
             {
-              "preferred": "Y",
-              "name": "PAUL GREEN",
-              "party": "D"
+              "preferred": "y",
+              "name": "Paul Green",
+              "party": "d"
             },
             {
-              "name": "COURTNEY L. JOHNSON",
-              "party": "D"
+              "name": "Courtney L. Johnson",
+              "party": "d"
             },
             {
-              "preferred": "Y",
-              "name": "ED BASSEMIER ",
-              "party": "R"
+              "preferred": "y",
+              "name": "Ed Bassemier",
+              "party": "r"
             },
             {
-              "name": "RON BEANE",
-              "party": "R"
+              "name": "Ron Beane",
+              "party": "r"
             },
             {
-              "name": "JONATHAN WEAVER",
-              "party": "R"
+              "name": "Jonathan Weaver",
+              "party": "r"
             }
           ]
         },
         {
           "name": "Evansville City Council, Ward 1",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name": "BEN TROCKMAN",
-              "party": "D"
+              "preferred": "y",
+              "name": "Ben Trockman",
+              "party": "d"
             },
             {
-              "name": "JOSHUA EDWARDS",
-              "party": "R"
+              "name": "Joshua Edwards",
+              "party": "r"
             }
           ]
         },
         {
           "name": "Evansville City Council, Ward 2",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "name": "MISSY MOSBY",
-              "party": "D"
+              "name": "Missy Mosby",
+              "party": "d"
             },
             {
-              "preferred": "Y",
-              "name": "MAYTES RIVERA",
-              "party": "R"
+              "preferred": "y",
+              "name": "Maytes Rivera",
+              "party": "r"
             }
           ]
         },
         {
           "name": "Evansville City Council, Ward 3",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name": "ZAC HERONEMUS",
-              "party": "D"
+              "preferred": "y",
+              "name": "Zac Heronemus",
+              "party": "d"
             },
             {
-              "preferred": "Y",
-              "name": "JOE KRATOCHVIL",
-              "party": "R"
+              "preferred": "y",
+              "name": "Joe Kratochvil",
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "FISHERS",
+      "name": "Fishers",
       "races": [
         {
-          "name": "Fishers City Council, At Large (vote for 3)",
+          "name": "Fishers City Council, At Large (Vote For 3)",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Howard Stevenson",
-              "party": "D"
+              "party": "d"
             },
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Jocelyn Vare",
-              "party": "D"
+              "party": "d"
             },
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Cecilia Coble",
-              "party": "R"
+              "party": "r"
             },
             {
               "name": "Tiffanie Ditlevson",
-              "party": "R"
+              "party": "r"
             },
             {
             "name": "Todd Zimmerman",
-            "party": "R"
+            "party": "r"
             }
           ]
         },
         {
-          "name": "Fishers City Council, NC Dist",
+          "name": "Fishers City Council, Nc Dist",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Crystal Neumann",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "John P. Delucia",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Fishers City Council, NE Dist",
+          "name": "Fishers City Council, Ne Dist",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Samantha R. Chapman",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Brad Dereamer",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Fishers City Council, NW Dist",
+          "name": "Fishers City Council, Nw Dist",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Bill Mclellan",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Selina Stoller",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Fishers City Council, SC Dist",
+          "name": "Fishers City Council, Sc Dist",
+          "info": "",
+          "link": "",
           "candidates": [
             {
               "name": "Lane Skeeters",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "John W. Weingardt",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Fishers City Council, SW Dist",
+          "name": "Fishers City Council, Sw Dist",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Bill Stuart",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "David Giffel",
-              "party": "R"
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "GREENFIELD",
+      "name": "Greenfield",
       "races": [
         {
           "name": "Mayor of Greenfield",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name": "NATE ANDERSON",
-              "party": "D"
+              "preferred": "y",
+              "name": "Nate Anderson",
+              "party": "d"
             },
             {
               "name": "Larry Silver Jr",
-              "party": "L"
+              "party": "l"
             },
             {
               "name": "Guy Titus",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "Greenfield City Council, Dist 4",
+          "info": "",
+          "link": "",
           "candidates": [
             {
               "name": "Carol Pearson",
-              "party": "D",
-              "preferred": "Y"
+              "party": "d",
+              "preferred": "y"
             },
             {
               "name": "Jeff Lowder",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "Greenfield City Council, Dist 5",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Bradley Scott Morris",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Thomas J Moore",
-              "party": "R"
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "LAFAYETTE",
+      "name": "Lafayette",
       "races": [
         {
           "name": "Mayor of Lafayette",
+          "info": "",
+          "link": "",
           "candidates": [
             {
               "name": "Tony M. Roswarski",
-              "party": "D"
+              "party": "d"
             },
             {
-              "preferred": "Y",
-              "name": "Benjamin MilanowskI",
-              "party": "L"
+              "preferred": "y",
+              "name": "Benjamin Milanowski",
+              "party": "l"
             }
           ]
         },
         {
           "name": "Lafayette City Council, Dist 2",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Eileen Hession Weiss",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Mary Fisher",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "Lafayette City Council, Dist 4",
+          "info": "",
+          "link": "",
           "candidates": [
             {
               "name": "Lauren Ahlersmeyer",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Josiah Eller",
-              "party": "L"
+              "party": "l"
             }
           ]
         },
         {
           "name": "Lafayette City Council, Dist 6",
+          "info": "",
+          "link": "",
           "candidates": [
             {
               "name": "Bob Downing",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Perry J. Barbee",
-              "party": "R"
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "NOBLESVILLE",
+      "name": "Noblesville",
       "races": [
         {
-          "name": "Noblesville City Council, At Large (vote for 3)",
+          "name": "Noblesville City Council, At Large (Vote For 3)",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Paula Jo Gilliam",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Evan Elliott",
-              "party": "R"
+              "party": "r"
             },
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Darren Peterson",
-              "party": "R"
+              "party": "r"
             },
             {
               "name": "Pete Schwartz",
-              "party": "R"
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "WEST LAFAYETTE",
+      "name": "West Lafayette",
       "races": [
         {
-          "name": "West Lafayette CityCouncil, At Large (vote for 3)",
+          "name": "West Lafayette Citycouncil, At Large (Vote For 3)",
+          "info": "",
+          "link": "",
           "candidates": [
             {          
-              "preferred": "Y",
+              "preferred": "y",
               "name": "James Blanco",
-              "party": "D"
+              "party": "d"
             },
             {
-              "double": "Y",
-              "preferred": "Y",
-              "name": "Iris O'Donnell Bellisario",
-              "party": "D"
+              "double": "y",
+              "preferred": "y",
+              "name": "Iris O'donnell Bellisario",
+              "party": "d"
             },
             {
-              "double": "Y",
-              "preferred": "Y",
+              "double": "y",
+              "preferred": "y",
               "name": "David A. Sanders",
-              "party": "D"
+              "party": "d"
             }, 
             {
               "name": "Patrick Flannelly",
-              "party": "R" 
+              "party": "r" 
             },
             {
-              "potential": "Y",
+              "potential": "y",
               "name": "Brian Russell",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "West Lafayette City Council, Dist 1",
+          "info": "",
+          "link": "",
           "candidates": [
             {
               "name": "Laila Veidemanis",
-              "party": "D"
+              "party": "d"
             },
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Aaron T. Abell",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "West Lafayette City Council, Dist 5",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Kathy Parker",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "James Waters",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "West Lafayette City Council, Dist 6",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Stacey Baitinger Burr",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Jeff Brown",
-              "party": "R"
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "WESTFIELD",
+      "name": "Westfield",
       "races": [
         {
-          "name": "Westfield City Council, At Large (vote for 2)",
+          "name": "Westfield City Council, At Large (Vote For 2)",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Gary Lane",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Chad Huff",
-              "party": "R"
+              "party": "r"
             },
             {
               "name": "Kurt J. Wanninger",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
           "name": "Westfield City Council, Dist 4",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Alexis Lowry",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Patrick T. Tamm",
-              "party": "R"
+              "party": "r"
             }
           ]
         }
       ]
     },
     {
-      "name": "ZIONSVILLE",
+      "name": "Zionsville",
       "races": [
         {
-          "name": "Zionsville Town Council At Large (vote for 2)",
+          "name": "Zionsville Town Council At Large (Vote For 2)",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Richard (Rick)  Graef",
-              "party": "D"
+              "party": "d"
             },
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Amanda  Rubeck",
-              "party": "D"
+              "party": "d"
             },
             {
-              "potential": "Y",
+              "potential": "y",
               "name": "Evan M Norris",
-              "party": "R"
+              "party": "r"
             },
             {
               "name": "Joe Stein",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Zionsville Town Council DIST 1",
+          "name": "Zionsville Town Council Dist 1",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
-              "name": "Tim McElderry",
-              "party": "D"
+              "preferred": "y",
+              "name": "Tim Mcelderry",
+              "party": "d"
             },
             {
               "name": "Bob Harris",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Zionsville Town Council DIST 2",
+          "name": "Zionsville Town Council Dist 2",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Jason Duane  Ramer",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Jason Alan Plunkett",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Zionsville Town Council DIST 3",
+          "name": "Zionsville Town Council Dist 3",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Monisha J Mitchell",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Craig J Melton",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Zionsville Town Council DIST4",
+          "name": "Zionsville Town Council Dist4",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Tim Casady",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Sarah Esterline Sampson",
-              "party": "R"
+              "party": "r"
             }
           ]
         },
         {
-          "name": "Zionsville Town Council DIST 5",
+          "name": "Zionsville Town Council Dist 5",
+          "info": "",
+          "link": "",
           "candidates": [
             {
-              "preferred": "Y",
+              "preferred": "y",
               "name": "Tiffany  Stoner",
-              "party": "D"
+              "party": "d"
             },
             {
               "name": "Brad Burk",
-              "party": "R"
+              "party": "r"
             }
           ]
         }

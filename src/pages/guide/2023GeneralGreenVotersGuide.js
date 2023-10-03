@@ -10,7 +10,7 @@ const GVGGeneral2023 = () => {
  return (
   <Layout>
     <SEO title="Green voters guide" />
-    <h1>GREEN VOTERS GUIDE</h1>
+    <h1>GREEN VOTERS GUIDE {data.title}</h1>
     <p>The Green Voters Guide represents a non-partisan evaluation of policies, positions, statements and votes to identify the "greener" candidate(s) within select races. The environmentally-friendly candidate(s) who in our opinion are most likely to address climate issues get a green checkmark. Due to limited resources, only major party candidates in select races are evaluated.</p>
     <GVGCandidateList data={data}/>
   </Layout>
