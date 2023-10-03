@@ -23,46 +23,13 @@ const GVGCandidateList = ({data}) => {
         {data.cities.map((city, index) => {
             return (
                 <div key={index}>
-                    <h2>{city.name}</h2>
+                    <h1 className="uppercase green">{city.name}</h1>
                     {city.races.map((race, index) => {
                         return (
                             <div key={index}>
-                                <h2 className="gvg-race green">{race.name.replace('STATE', '')}
+                                <h3 className="gvg-race uppercase bold">{race.name.replace('STATE', '')}
                                     <a name={race.name.replace(/ /g, '')}></a>
-                                </h2>
-                                
-                                {/* { index === 1 &&
-                                    <h2 className="gvg-race green">U.S. HOUSE OF REPRESENTATIVES</h2>
-                                } */}
-                                { race.name === 'INDIANA STATE SENATE DISTRICT 4' &&
-                                <h2 className="gvg-race green">INDIANA STATE SENATE</h2>
-                                }
-                                { race.name === 'INDIANA STATE HOUSE DISTRICT 5' &&
-                                <h2 className="gvg-race green">INDIANA STATE HOUSE</h2>
-                                }
-                                { race.name === 'BARTHOLOMEW COUNTY COUNCIL DISTRICT 1' &&
-                                    <h2 className="gvg-race green">BARTHOLOMEW COUNTY</h2>
-                                }
-                                { race.name === 'HAMILTON COUNTY COUNCIL DISTRICT 2' &&
-                                    <h2 className="gvg-race green">HAMILTON COUNTY</h2>
-                                }
-                                { race.name === 'PORTER COUNTY COMMISSIONER DISTRICT 2' &&
-                                    <h2 className="gvg-race green">PORTER COUNTY COMM</h2>
-                                }
-                                { race.name === 'TIPPECANOE COUNTY COUNCIL DISTRICT 4' &&
-                                    <h2 className="gvg-race green">TIPPECANOE COUNTY</h2>
-                                }
-
-                                { (race.name.includes('U.S. HOUSE') || race.name.includes('STATE')) &&
-                                    <h3 className="gvg-race">{race.name.replace('STATE', '')}
-                                        <a name={race.name.replace(/ /g, '')}></a>
-                                    </h3>
-                                }
-                                { race.name.includes('COUNTY') &&
-                                    <h3 className="gvg-race">{getCountyRaceName(race.name)}
-                                        <a name={getCountyRaceAnchor(race.name)}></a>
-                                    </h3>
-                                }
+                                </h3>
                                 <div className="gvg-race-row">
                                     {race.candidates.map((candidate, index) => {
                                         return (
@@ -75,7 +42,7 @@ const GVGCandidateList = ({data}) => {
                                                 { candidate.potential && <div className="potential-advocate">Potential Advocate</div>}
                                             </div>
                                             <div className="gvg-column-2">
-                                                <div className="gvg-name">{candidate.name} - {candidate.party}<span className="gvg-incumbent">{candidate.incumbent ==='Y' && "(Incumbent)"}{candidate.uncontested === 'Y' && "- uncontested"}</span></div>
+                                                <div className="gvg-name">{candidate.name}, {candidate.party.toUpperCase()}<span className="gvg-incumbent">{candidate.incumbent ==='Y' && "(Incumbent)"}{candidate.uncontested === 'Y' && "- uncontested"}</span></div>
                                                 <div className="gvg-info">{candidate.info}&nbsp;</div>
                                             </div>
                                         </div>

@@ -11,8 +11,9 @@ const CandidateViewsGeneral2023 = () => {
  return (
   <Layout>
     <SEO title="Candidate Views Questionaire & Answers" />
-    <h1 className="uppercase">{data.year} General Candidate Views</h1>
-    <p>The Green Voters Guide represents a non-partisan evaluation of policies, positions, statements and votes to identify the "greener" candidate(s) within select races. The environmentally-friendly candidate(s) who in our opinion are most likely to address climate issues get a green checkmark. Due to limited resources, only major party candidates in select races are evaluated.</p>
+    <h1 className="uppercase">Candidate Views</h1>
+    <p>This is a nonpartisan summary of the candidate’s views, policies, positions, statements and votes related to climate, sustainability and resilience. Due to limited resources, only major party candidates in select contested races are evaluated.</p>
+    <h1 className="uppercase green">{data.title}</h1>
     <CandidateList data={data} />
   </Layout>
  )

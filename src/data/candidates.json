@@ -12,7 +12,7 @@
           "candidates": [
             {
               "name": "Miles Nelson",
-              "party": "d",
+              "party": "D",
               "preferred": "y",
               "potential": "",
               "double": "y",
@@ -22,7 +22,7 @@
             },
             {
               "name": "Darin Johnson",
-              "party": "i",
+              "party": "I",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -32,7 +32,7 @@
             },
             {
               "name": "Sue Finkam",
-              "party": "r",
+              "party": "R",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -49,7 +49,7 @@
           "candidates": [
             {
               "name": "Sara Draper",
-              "party": "d",
+              "party": "D",
               "preferred": "y",
               "potential": "",
               "double": "",
@@ -59,7 +59,7 @@
             },
             {
               "name": "Jake Madore",
-              "party": "d",
+              "party": "D",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -69,7 +69,7 @@
             },
             {
               "name": "Matthew J. Snyder",
-              "party": "r",
+              "party": "R",
               "preferred": "",
               "potential": "",
               "double": "",
@@ -79,7 +79,7 @@
             },
             {
               "name": "Rich Taylor",
-              "party": "r",
+              "party": "R",
               "preferred": "y",
               "potential": "",
               "double": "",
@@ -89,7 +89,7 @@
             },
             {
               "name": "Jeff Worrell",
-              "party": "r",
+              "party": "R",
               "preferred": "",
               "potential": "y",
               "double": "",
@@ -107,11 +107,11 @@
             {
               "preferred": "y",
               "name": "Courtney Culver",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Teresa Ayers",
-              "party":"r"
+              "party": "R"
             }
           ]
         },
@@ -124,12 +124,12 @@
             {
               "preferred": "y",
               "name": "Melanie Brown",
-              "party": "d"
+              "party": "D"
             },
             {
 
               "name": "Ryan Locke",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -141,12 +141,12 @@
             {
               "preferred": "y",
               "name": "Jessica Irvine",
-              "party": "d"
+              "party": "D"
             },
             {
               "potential": "y",
               "name": "Anthony (Tony) Green",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -159,12 +159,12 @@
               "preferred": "y",
               "double": "y",
               "name": "Jeremy Eltz",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Adam Aasen",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -176,11 +176,11 @@
             {
               "preferred": "y",
               "name": "Anita Joshi",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Loren Matthes",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -197,15 +197,15 @@
             {
               "preferred": "y",
               "name": "Stephanie Terry",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Michael Daugherty",
-              "party": "l"
+              "party": "L"
             },
             {
               "name": "Natalie Rascher",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -217,29 +217,29 @@
             {
               "preferred": "y",
               "name": "Mary Allen",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Paul Green",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Courtney L. Johnson",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Ed Bassemier",
-              "party": "r"
+              "party": "R"
             },
             {
               "name": "Ron Beane",
-              "party": "r"
+              "party": "R"
             },
             {
               "name": "Jonathan Weaver",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -251,11 +251,11 @@
             {
               "preferred": "y",
               "name": "Ben Trockman",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Joshua Edwards",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -266,12 +266,12 @@
           "candidates": [
             {
               "name": "Missy Mosby",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Maytes Rivera",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -283,12 +283,12 @@
             {
               "preferred": "y",
               "name": "Zac Heronemus",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Joe Kratochvil",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -305,25 +305,25 @@
             {
               "preferred": "y",
               "name": "Howard Stevenson",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Jocelyn Vare",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Cecilia Coble",
-              "party": "r"
+              "party": "R"
             },
             {
               "name": "Tiffanie Ditlevson",
-              "party": "r"
+              "party": "R"
             },
             {
             "name": "Todd Zimmerman",
-            "party": "r"
+            "party": "R"
             }
           ]
         },
@@ -335,11 +335,11 @@
             {
               "preferred": "y",
               "name": "Crystal Neumann",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "John P. Delucia",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -351,11 +351,11 @@
             {
               "preferred": "y",
               "name": "Samantha R. Chapman",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Brad Dereamer",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -367,11 +367,11 @@
             {
               "preferred": "y",
               "name": "Bill Mclellan",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Selina Stoller",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -382,11 +382,11 @@
           "candidates": [
             {
               "name": "Lane Skeeters",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "John W. Weingardt",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -398,11 +398,11 @@
             {
               "preferred": "y",
               "name": "Bill Stuart",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "David Giffel",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -419,15 +419,15 @@
             {
               "preferred": "y",
               "name": "Nate Anderson",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Larry Silver Jr",
-              "party": "l"
+              "party": "L"
             },
             {
               "name": "Guy Titus",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -438,12 +438,12 @@
           "candidates": [
             {
               "name": "Carol Pearson",
-              "party": "d",
+              "party": "D",
               "preferred": "y"
             },
             {
               "name": "Jeff Lowder",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -455,11 +455,11 @@
             {
               "preferred": "y",
               "name": "Bradley Scott Morris",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Thomas J Moore",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -475,12 +475,12 @@
           "candidates": [
             {
               "name": "Tony M. Roswarski",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Benjamin Milanowski",
-              "party": "l"
+              "party": "L"
             }
           ]
         },
@@ -492,11 +492,11 @@
             {
               "preferred": "y",
               "name": "Eileen Hession Weiss",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Mary Fisher",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -507,11 +507,11 @@
           "candidates": [
             {
               "name": "Lauren Ahlersmeyer",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Josiah Eller",
-              "party": "l"
+              "party": "L"
             }
           ]
         },
@@ -522,11 +522,11 @@
           "candidates": [
             {
               "name": "Bob Downing",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Perry J. Barbee",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -543,20 +543,20 @@
             {
               "preferred": "y",
               "name": "Paula Jo Gilliam",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Evan Elliott",
-              "party": "r"
+              "party": "R"
             },
             {
               "preferred": "y",
               "name": "Darren Peterson",
-              "party": "r"
+              "party": "R"
             },
             {
               "name": "Pete Schwartz",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -573,28 +573,28 @@
             {          
               "preferred": "y",
               "name": "James Blanco",
-              "party": "d"
+              "party": "D"
             },
             {
               "double": "y",
               "preferred": "y",
               "name": "Iris O'donnell Bellisario",
-              "party": "d"
+              "party": "D"
             },
             {
               "double": "y",
               "preferred": "y",
               "name": "David A. Sanders",
-              "party": "d"
+              "party": "D"
             }, 
             {
               "name": "Patrick Flannelly",
-              "party": "r" 
+              "party": "R" 
             },
             {
               "potential": "y",
               "name": "Brian Russell",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -605,12 +605,12 @@
           "candidates": [
             {
               "name": "Laila Veidemanis",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Aaron T. Abell",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -622,11 +622,11 @@
             {
               "preferred": "y",
               "name": "Kathy Parker",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "James Waters",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -638,11 +638,11 @@
             {
               "preferred": "y",
               "name": "Stacey Baitinger Burr",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Jeff Brown",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -659,15 +659,15 @@
             {
               "preferred": "y",
               "name": "Gary Lane",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Chad Huff",
-              "party": "r"
+              "party": "R"
             },
             {
               "name": "Kurt J. Wanninger",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -679,11 +679,11 @@
             {
               "preferred": "y",
               "name": "Alexis Lowry",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Patrick T. Tamm",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
@@ -700,21 +700,21 @@
             {
               "preferred": "y",
               "name": "Richard (Rick)  Graef",
-              "party": "d"
+              "party": "D"
             },
             {
               "preferred": "y",
               "name": "Amanda  Rubeck",
-              "party": "d"
+              "party": "D"
             },
             {
               "potential": "y",
               "name": "Evan M Norris",
-              "party": "r"
+              "party": "R"
             },
             {
               "name": "Joe Stein",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -726,11 +726,11 @@
             {
               "preferred": "y",
               "name": "Tim Mcelderry",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Bob Harris",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -742,11 +742,11 @@
             {
               "preferred": "y",
               "name": "Jason Duane  Ramer",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Jason Alan Plunkett",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -758,11 +758,11 @@
             {
               "preferred": "y",
               "name": "Monisha J Mitchell",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Craig J Melton",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -774,11 +774,11 @@
             {
               "preferred": "y",
               "name": "Tim Casady",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Sarah Esterline Sampson",
-              "party": "r"
+              "party": "R"
             }
           ]
         },
@@ -790,11 +790,11 @@
             {
               "preferred": "y",
               "name": "Tiffany  Stoner",
-              "party": "d"
+              "party": "D"
             },
             {
               "name": "Brad Burk",
-              "party": "r"
+              "party": "R"
             }
           ]
         }
