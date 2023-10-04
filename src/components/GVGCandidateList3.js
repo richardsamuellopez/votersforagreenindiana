@@ -53,14 +53,18 @@ const GVGCandidateList = ({data}) => {
                                         </div>
                                         )
                                     })}
-                                    {race.link &&
                                         <div className="gvg-candidate-item">
                                             <div className="gvg-preferred"></div>
                                             <div className="gvg-column-2">
-                                                <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
+                                                {race.link ?
+                                                    <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
+                                                    : <>
+                                                    <div className="bold">Candidates did not respond to the questionnaire.</div>
+                                                    <div className="green bold">We regret that neither candidate is a strong advocate for climate solutions.</div>
+                                                    </>
+                                                }
                                             </div>
                                         </div>
-                                    }
                                     {race.info &&<div>{race.info}</div>}
                                 </div>
                             </div>
