@@ -4,67 +4,17 @@ import SEO from "../../components/seo"
 
 import '../candidate-views.css'
 import DocList from "../../components/docList";
-import CandidateList from "../../components/candidateList2";
-import { useStaticQuery, graphql } from "gatsby"
+import CandidateList from "../../components/candidateList3";
+import data from "../../data/candidates.json"
 
 const CandidateViewsGeneral2023 = () => {
-  const data = useStaticQuery(graphql`
-  {
-    allGeneralCandidates2023Csv {
-      nodes {
-        Race
-          Name1
-          Party1
-          Preferred1
-          Potential1
-          Double1
-          Incumbent1
-          Uncontested1
-          Info1
-          Name2
-          Party2
-          Preferred2
-          Potential2
-          Double2
-          Incumbent2
-          Uncontested2
-          Info2
-          Name3
-          Party3
-          Preferred3
-          Potential3
-          Double3
-          Incumbent3
-          Uncontested3
-          Info3
-          Name4
-          Party4
-          Preferred4
-          Potential4
-          Double4
-          Incumbent4
-          Uncontested4
-          Info4
-          Name5
-          Party5
-          Preferred5
-          Potential5
-          Double5
-          Incumbent5
-          Uncontested5
-          Info5
-          RaceInfo
-          Link
-      }
-    }
-  }`);
-
  return (
   <Layout>
     <SEO title="Candidate Views Questionaire & Answers" />
-    <h1 className="uppercase">2023 General Candidate Views</h1>
-    <p>The Green Voters Guide represents a non-partisan evaluation of policies, positions, statements and votes to identify the "greener" candidate(s) within select races. The environmentally-friendly candidate(s) who in our opinion are most likely to address climate issues get a green checkmark. Due to limited resources, only major party candidates in select races are evaluated.</p>
-    <CandidateList style={{paddingBottom: '20px'}} data={data.allGeneralCandidates2023Csv} />
+    <h1 className="uppercase">Candidate Views</h1>
+    <p>This is a nonpartisan summary of the candidate’s views, policies, positions, statements and votes related to climate, sustainability and resilience. Due to limited resources, only major party candidates in select contested races are evaluated.</p>
+    <h1 className="uppercase green">{data.title}</h1>
+    <CandidateList data={data} />
   </Layout>
  )
 }

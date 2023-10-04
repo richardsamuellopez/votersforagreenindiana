@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DocList from "../components/docList"
+import GVGButton from "../components/GVGButton"
 import { Link } from "gatsby"
 import './guide.css'
 
@@ -29,7 +30,7 @@ const GuidePage = () => {
           </Link> */}
           <DocList search="Solar" />
           {/* <DocList search="Press" /> */}
-          General Election info coming soon!
+          <Link to={'/guide/2023GeneralGreenVotersGuide/'}><GVGButton /></Link>
           {/* <li><Link to={'/guide/2023GeneralGreenVotersGuide/'}>Green Voters Guide for the 2023 General Election</Link></li>
           <li><Link to={'/guide/GeneralElection/'}>Green Voters Guide for the 2023 General Election</Link></li>
           <li><Link to={'/guide/PrimaryElection/'}>Green Voters Guide for the 2023 General Election</Link></li> */}
