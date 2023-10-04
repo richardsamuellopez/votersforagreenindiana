@@ -42,7 +42,12 @@ const GVGCandidateList = ({data}) => {
                                                 { candidate.potential && <div className="potential-advocate">Potential Advocate</div>}
                                             </div>
                                             <div className="gvg-column-2">
-                                                <div className="gvg-name">{candidate.name}, {candidate.party.toUpperCase()}<span className="gvg-incumbent">{candidate.incumbent ==='Y' && "(Incumbent)"}{candidate.uncontested === 'Y' && "- uncontested"}</span></div>
+                                                <div className="gvg-name">
+                                                    { candidate.link ?
+                                                        <a href={candidate.link}>{candidate.name}</a>
+                                                    :
+                                                        candidate.name
+                                                    }, {candidate.party.toUpperCase()}<span className="gvg-incumbent">{candidate.incumbent ==='Y' && "(Incumbent)"}{candidate.uncontested === 'Y' && "- uncontested"}</span></div>
                                                 <div className="gvg-info">{candidate.info}&nbsp;</div>
                                             </div>
                                         </div>
