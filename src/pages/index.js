@@ -34,8 +34,7 @@ const IndexPage = () => (
       </div>
       <div className="item">
         <ul>
-          {/* <DocList search="Press Release" /> */}
-          <Link to={'https://mail.google.com/mail/u/0?ui=2&ik=7c247fb2d1&attid=0.1&permmsgid=msg-f:1779018476668056521&th=18b057e0fea7f3c9&view=att&disp=inline'}>2023 General – Press Release</Link>
+          <DocList search="Press Release" />
         </ul>
       </div>
     </div>
