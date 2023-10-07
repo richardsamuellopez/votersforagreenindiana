@@ -41,18 +41,15 @@ const CandidatePage = () => {
           <p>
             Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.
           </p>
-          <h4 className="underline">2023 Indiana Primary Election is on May 2, 6 am – 6 pm</h4>
+          <h4 className="underline">2023 General Election is on November 7, 6 am – 6 pm</h4>
           <ul>
             <li>
-              Early voting begins April 4th.  Find location & hours at your local County Election Office.
+              Early voting begins October 11th.  Find location & hours at your local County Election Office.
             </li>
             <li>
               Register to Vote or Check Voting Status at the <a href="https://indianavoters.in.gov/">Indiana Voter Portal</a>.  Check Voting Status will also show who’s on your ballot and voting locations
             </li>
           </ul>
-          <p>
-            This is a primary election so you need to ask for a Republican or Democratic Party ballot. Indiana has an <span STYLE="text-decoration:underline">open</span> primary which means anyone can vote in EITHER primary. However, anyone wishing to run as a candidate in the future might not want to vote in the primary for the other party.
-          </p>
           {/* <CandidateList data={data.allCandidates2022Csv} /> */}
         </div>
         <div className="item">
