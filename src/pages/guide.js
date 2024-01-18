@@ -22,18 +22,8 @@ const GuidePage = () => {
       </div>
       <div className="item">
         <ul>
-          {/* <DocList search="2020" exclude="Press" /> */}
-          {/* <DocList search="Campaign" /> */}
-          {/* <DocList search="Green Voters Guide" /> */}
-          {/* <Link to={'2022-general-election'} style={{fontWeight: 'bold'}}>
-          2022 GENERAL ELECTION
-          </Link> */}
           <DocList search="Solar" />
-          {/* <DocList search="Press" /> */}
-          <Link to={'/guide/2023GeneralGreenVotersGuide/'}><GVGButton /></Link>
-          {/* <li><Link to={'/guide/2023GeneralGreenVotersGuide/'}>Green Voters Guide for the 2023 General Election</Link></li>
-          <li><Link to={'/guide/GeneralElection/'}>Green Voters Guide for the 2023 General Election</Link></li>
-          <li><Link to={'/guide/PrimaryElection/'}>Green Voters Guide for the 2023 General Election</Link></li> */}
+          {/* <Link to={'/guide/2023GeneralGreenVotersGuide/'}><GVGButton /></Link> */}
         </ul>
       </div>
     </div>

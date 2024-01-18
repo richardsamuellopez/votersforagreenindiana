@@ -41,10 +41,10 @@ const CandidatePage = () => {
           <p>
             Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.
           </p>
-          <h4 className="underline">2023 General Election is on November 7, 6 am – 6 pm</h4>
+          <h4 className="underline">2024 Primary Election is on May 7, 6 am – 6 pm</h4>
           <ul>
             <li>
-              Early voting begins October 11th.  Find location & hours at your local County Election Office.
+              Early voting begins April 9th.  Find location & hours at your local County Election Office.
             </li>
             <li>
               Register to Vote or Check Voting Status at the <a href="https://indianavoters.in.gov/">Indiana Voter Portal</a>.  Check Voting Status will also show who’s on your ballot and voting locations
@@ -54,9 +54,8 @@ const CandidatePage = () => {
         </div>
         <div className="item">
           <ul>
-            <li><Link to={'/candidate-views/2023GeneralCandidateViews/'}>Candidate Views for the 2023 General Election</Link></li>
-            {/* <li><Link to={'/candidate-views/GeneralElection/'}>Candidate Views for the 2023 General Election</Link></li>
-            <li><Link to={'/candidate-views/PrimaryElection/'}>Candidate Views for the 2023 General Election</Link></li> */}
+            {/* <li><Link to={'/candidate-views/2023GeneralCandidateViews/'}>Candidate Views for the 2023 General Election</Link></li> */}
+            {/* <li><Link to={'/candidate-views/PrimaryElection/'}>Candidate Views for the 2023 General Election</Link></li> */}
           </ul>
         </div>
       </div>
