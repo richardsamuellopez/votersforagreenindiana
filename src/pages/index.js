@@ -32,11 +32,11 @@ const IndexPage = () => (
           Climate change is a profoundly moral issue. Almost every religion has <a href="https://fore.yale.edu/Climate-Emergency/Climate-Change-Statements-from-World-Religions" target="_blank" rel="noopener noreferrer">a faith-based statement on climate change</a> and caring for God's Creation. Who doesn't want clean air, clean water, and a stable climate for our families and communities?
         </p>
       </div>
-      <div className="item">
-        <ul>
+      {/* <div className="item">
+        <ul> */}
           {/* <DocList search="Press Release" /> */}
-        </ul>
-      </div>
+        {/* </ul>
+      </div> */}
     </div>
   </Layout>
 )
