@@ -32,7 +32,8 @@ const CandidateList = ({data}) => {
             </div>
         )
     }
-
+    if (!data?.cities)
+    return <></>;
     return (<div className="candidate-list">
         {data.cities.map((city, index) => {
             return (
