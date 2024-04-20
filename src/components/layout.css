@@ -13,9 +13,9 @@ body {
 
 @media screen and (max-width:767px) {
   iframe {
-    width: calc(100vw + 54pt)!important;
+    width: calc(100vw + 27pt)!important;
     height: 100vh!important;
-    margin: 0 -54pt!important;
+    margin: 0 -27pt!important;
     border: none;
   }
 }

@@ -29,7 +29,8 @@ const CandidatePage = () => {
  return (
   <Layout>
     <SEO title="Candidate Views Questionaire & Answers" />
-    <iframe style={{width: "100%", height: "100vh", border: "none"}} src="https://docs.google.com/document/d/e/2PACX-1vRQY2GI0YARp-QrYzRFgFEky7MDvKCzN1SUBsnQzDEDGhMCfxujznEE-Z6gRX4Vkg/pub?embedded=true"></iframe>
+    <h1 className="uppercase">Candidate Views</h1>
+    <iframe  style={{width:"100%", height:"100vh", border: 'none', allow:"autoplay"}} src="https://drive.google.com/file/d/14-GvayyjIegptB8LUlNIk91jnyghO5M8/preview"></iframe>
   </Layout>
  )
 }
