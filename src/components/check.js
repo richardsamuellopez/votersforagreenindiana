@@ -18,7 +18,7 @@ const Check = () => {
     query {
       placeholderImage: file(relativePath: { eq: "vgi-check.png" }) {
         childImageSharp {
-          fixed(width: 50, height: 25) {
+          fixed(width: 75, height: 50) {
             ...GatsbyImageSharpFixed
           }
         }
