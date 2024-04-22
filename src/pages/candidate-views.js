@@ -50,8 +50,10 @@ const CandidatePage = () => {
               Register to Vote or Check Voting Status at the <a href="https://indianavoters.in.gov/">Indiana Voter Portal</a>.  Check Voting Status will also show who’s on your ballot and voting locations
             </li>
           </ul>
-          <a href="https://drive.google.com/file/d/14-GvayyjIegptB8LUlNIk91jnyghO5M8/view">2024 Candidate Views Document</a>
           {/* <CandidateList data={data.allCandidates2022Csv} /> */}
+        </div>
+        <div className="item">
+            <a href="https://drive.google.com/file/d/14-GvayyjIegptB8LUlNIk91jnyghO5M8/view">2024 Candidate Views Document</a>
         </div>
       </div>
   </Layout>
