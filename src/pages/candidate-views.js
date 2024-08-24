@@ -53,7 +53,7 @@ const CandidatePage = () => {
           {/* <CandidateList data={data.allCandidates2022Csv} /> */}
         </div>
         <div className="item">
-            <a href="https://drive.google.com/file/d/14-GvayyjIegptB8LUlNIk91jnyghO5M8/view">2024 Candidate Views Document</a>
+            {/* <a href="https://drive.google.com/file/d/14-GvayyjIegptB8LUlNIk91jnyghO5M8/view">2024 Candidate Views Document</a> */}
         </div>
       </div>
   </Layout>
