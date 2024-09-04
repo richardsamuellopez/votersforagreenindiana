@@ -16,10 +16,10 @@ const GuidePage = () => {
     <h1>Green Voters Guide</h1>
     <div className="flex-container">
       <div className="item">
-      <p>
+        <p>
           The Green Voters Guide represents a non-partisan evaluation of voting records,ratings, policy positions, campaign priorities and financial contributions from the fossil fuel industry to identify the "greener" candidate(s) within select races. Due to limited resources, only major party candidates in select contested races are evaluated. Evaluations are conducted by a non-partisan committee of 1 Republican, 1 Democratand 1 Independent who care deeply about addressing climate change. The environmentally-friendly candidates who in our opinion are most likely to addressclimate issues get a green checkmark.
         </p>
-        <p>
+        {/* <p>
           <b><u>Election Information</u></b>
           <ul>
             <li>Early voting begins April 9. Find locations & hours at the Election Office for your  county. </li>
@@ -38,7 +38,7 @@ const GuidePage = () => {
           <h1><a href="#Rep">REPUBLICAN PRIMARY</a></h1>
           <h1><a href="#Dem">DEMOCRATIC PRIMARY</a></h1>
         </p>
-        <GVGCandidateListPrimary data={data}/>
+        <GVGCandidateListPrimary data={data}/> */}
       </div>
     </div>
   </Layout>
