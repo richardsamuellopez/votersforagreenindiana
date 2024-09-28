@@ -19,6 +19,7 @@ const GuidePage = () => {
         <p>
           The Green Voters Guide represents a non-partisan evaluation of voting records,ratings, policy positions, campaign priorities and financial contributions from the fossil fuel industry to identify the "greener" candidate(s) within select races. Due to limited resources, only major party candidates in select contested races are evaluated. Evaluations are conducted by a non-partisan committee of 1 Republican, 1 Democratand 1 Independent who care deeply about addressing climate change. The environmentally-friendly candidates who in our opinion are most likely to addressclimate issues get a green checkmark.
         </p>
+        <h1>2024 General Coming Soon</h1>
         {/* <p>
           <b><u>Election Information</u></b>
           <ul>

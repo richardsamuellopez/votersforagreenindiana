@@ -41,16 +41,17 @@ const CandidatePage = () => {
           <p>
             Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.
           </p>
-          <h4 className="underline">2024 Primary Election is on May 7, 6 am – 6 pm</h4>
-          <ul>
+          {/* <h4 className="underline">2024 Primary Election is on May 7, 6 am – 6 pm</h4> */}
+          {/* <ul>
             <li>
               Early voting begins April 9th.  Find location & hours at your local County Election Office.
             </li>
             <li>
               Register to Vote or Check Voting Status at the <a href="https://indianavoters.in.gov/">Indiana Voter Portal</a>.  Check Voting Status will also show who’s on your ballot and voting locations
             </li>
-          </ul>
+          </ul> */}
           {/* <CandidateList data={data.allCandidates2022Csv} /> */}
+          <h1>2024 General Coming Soon</h1>
         </div>
         <div className="item">
             {/* <a href="https://drive.google.com/file/d/14-GvayyjIegptB8LUlNIk91jnyghO5M8/view">2024 Candidate Views Document</a> */}
