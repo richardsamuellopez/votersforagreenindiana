@@ -44,7 +44,7 @@ const General2024 = () => {
             <li>GENERAL ELECTION DAY is on Tuesday, November 5th. Polls are open 6 am – 6 pm, prevailing  local time. </li>
             <li>To see your ballot, your voting location, and voting status, go to <a href="https://indianavoters.in.gov/">https://indianavoters.in.gov/</a>.</li>
             <li>To find your current elected officials, go to <a href="http://iga.in.gov/legislative/find-legislators/">http://iga.in.gov/legislative/find-legislators/</a></li>
-            <li>You will need to ask for either a <b>Republican</b> or <b>Democratic</b> ballot. Please note Indiana  has an <u>open primary</u> which means anyone can vote in EITHER primary. However, anyone  wishing to run as a candidate in the future might not want to vote outside of their party.</li>
+            {/* <li>You will need to ask for either a <b>Republican</b> or <b>Democratic</b> ballot. Please note Indiana  has an <u>open primary</u> which means anyone can vote in EITHER primary. However, anyone  wishing to run as a candidate in the future might not want to vote outside of their party.</li> */}
             </ul>
         </p>
     
