@@ -14,8 +14,8 @@
 }
 
 .gvg-race-row {
-    border: 1px solid lightgrey;
-    padding: 5px 0;
+    border: 1px solid black;
+    /* padding: 5px 0; */
     margin-bottom: 20px;
 }
 
@@ -42,10 +42,17 @@
 }
 
 .potential-advocate {
-    padding-left: 10px;
-    width: 80px;
+    /* padding-left: 10px; */
+    /* width: 80px; */
     font-size: 14px;
     color: green;
+ }
+
+ .bad-candidate {
+    /* padding-left: 10px; */
+    /* width: 80px; */
+    font-size: 14px;
+    color: red;
  }
 
  .check ~ .check {
