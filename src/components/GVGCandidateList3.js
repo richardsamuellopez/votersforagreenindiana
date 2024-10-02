@@ -45,7 +45,8 @@ const GVGCandidateList = ({data}) => {
                                         return (
                                             <div className="gvg-candidate-item">
                                             <div className="gvg-preferred">
-                                                { candidate.preferred && candidate.double ?
+                                                { candidate.preferred === 'dislike' ? <div className="bad-candidate" style={{display: 'flex', color: 'red', padding: '0 15px', fontSize: '32px', }}>X </div> : 
+                                                candidate.preferred && candidate.double ?
                                                     <div style={{display: 'flex'}}><Check /><Check className="second-check" /></div>
                                                 : candidate.preferred && <Check />
                                                 }
