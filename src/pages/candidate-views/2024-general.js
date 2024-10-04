@@ -50,7 +50,6 @@ const General2024 = () => {
                                 Register to Vote or Check Voting Status at the <a href="https://indianavoters.in.gov/">Indiana Voter Portal</a>.  Check Voting Status will also show who’s on your ballot and voting locations
                             </li>
                         </ul>
-                        <h1>2024 General Election Coming soon</h1>
                         { loading ? <><div style={{align: "center"}} class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></>
                     :
                     <CandidateList data={isDataEmpty ? googleSheetData : data}/>
