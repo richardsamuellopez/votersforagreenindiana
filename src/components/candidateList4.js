@@ -17,6 +17,8 @@ const CandidateList = ({data}) => {
         returnName = returnName.replace("SEVENTH DISTRICT", "DISTRICT 7");
         returnName = returnName.replace("EIGTH DISTRICT", "DISTRICT 8");
         returnName = returnName.replace("NINTH DISTRICT", "DISTRICT 9");
+        returnName = returnName.replace("INDIANA STATE SENATE INDIANA Senate Dist", "INDIANA SENATE DISTRICT");
+        returnName = returnName.replace("INDIANA STATE HOUSE INDIANA House Dist", "INDIANA HOUSE DISTRICT");
         switch(returnName) {
             case 'U.S. PRESIDENT & VICE PRESIDENT':
                 // return returnName.replace(' & ', '\n&\n').split('\n').map((text, index) => (
