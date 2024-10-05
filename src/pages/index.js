@@ -36,6 +36,7 @@ const IndexPage = () => (
         <ul>
           <DocList search="Campaign Funds" />
           <DocList search="Voting Record" />
+          <DocList search="2024 General" />
         </ul>
       </div>
     </div>
