@@ -34,6 +34,7 @@ const CandidateList = ({data}) => {
     };
 
     const getBeforeAmpersand = (candidateName) => {
+        if(!candidateName)  return "";
         let candidateArray = candidateName.split(' & ');
         return candidateArray[0];
     }
