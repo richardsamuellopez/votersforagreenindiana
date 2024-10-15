@@ -39,6 +39,7 @@
 .gvg-preferred {
     display: inline-block;
     min-width: 80px;
+    max-width: 80px;
 }
 
 .potential-advocate {
