@@ -30,7 +30,7 @@ const General2024 = () => {
  return (
     <Layout>
         <SEO title="Green voters guide" />
-        <h1>GREEN VOTERS GUIDE</h1>
+        <h1>2024 GENERAL ELECTION GREEN VOTERS GUIDE</h1>
         <div className="flex-container">
         <div className="item">
             <p>
