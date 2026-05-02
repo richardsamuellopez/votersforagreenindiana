@@ -1,0 +1,1444 @@
+{
+  "title": "2024 primary election",
+  "year": "2024",
+  "guideLink": "https://drive.google.com/file/d/1t7UzNCXG-imjqM-li9PoYF-1zexifiWS/view?fbclid=IwZXh0bgNhZW0CMTAAAR1xSj5AAZrpHLUdF8FQ9hPmOOsZxoeKxnw9kKRh4NdiSqwhLT3HPUkHhrY_aem_AdnqeW3cHdke_TolMFggDvq_A-1mmaZn2xDaZb6j-yi_-SEa6BcVjSWDv3ynLw26uQAHM36-izWkFmsXeJYWd7x0",
+  "primaries": [
+    {
+      "name": "Republican Primary Candidates",
+      "groups": [
+        {
+          "name": "INDIANA GOVERNOR",
+          "races": [
+            {
+              "name": "",
+              "info": "",
+              "noVote": "",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gjdgxs",
+              "candidates": [
+                {
+                  "name": "Mike Braun",
+                  "info": "Pro-coal & voting record does not support renewable energy, voted against clean energy & electric vehicles.",
+                  "badInfo": "LCV Score <10%",
+                  "party": "",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": ""
+                },
+                {
+                  "name": "Brad Chambers",
+                  "potential": "y",
+                  "info": "Brought EV battery plant to Indiana, which will employ 1,400 people in high paying renewable energy jobs."
+                },
+                {
+                  "name": "Suzanne Crouch",
+                  "info": "Axe the tax will create the need to cut out many state jobs in education & environmental agencies ",
+                  "badInfo": "For pro-coal voting record and strong ties to the coal/utilities"
+                },
+                {
+                  "name": "Eric Doden",
+                  "info": "No focus on our environment"
+                },
+                {
+                  "name": "Curtis Hill",
+                  "info": "Pro-coal & no focus on our environment"
+                },
+                {
+                  "name": "Jamie Reitenour",
+                  "info": "No focus on our environment"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "U.S. SENATE",
+          "races": []
+        },
+        {
+          "name": "U.S. HOUSE OF REPRESENTATIVES",
+          "races": [
+            {
+                "name": "FIRST DISTRICT",
+                "info": "",
+                "noVote": "y",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "candidates": [
+                    {
+                        "name": "Mark Leyva",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No focus on our environment "
+                    },
+                    {
+                        "name": "Randy Niemeyer",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No focus on our environment "
+                    },
+                    {
+                        "name": "Ben Ruiz",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    }
+                ]
+            },
+            {
+                "name": "THIRD DISTRICT",
+                "info": "",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "candidates": [
+                    {
+                        "name": "Grant Bucher",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No focus on our environment "
+                    },
+                    {
+                        "name": "Wendy Davis",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No focus on our environment "
+                    },
+                    {
+                        "name": "Mike Felker",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "y",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Supports renewable energy and efforts to reduce carbon pollution."
+                    },
+                    {
+                        "name": "Jon Kenworthy",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Unsure that climate change is a serious problem."
+                    },
+                    {
+                        "name": "Tim Smith",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No focus on our environment "
+                    },
+                    {
+                        "name": "Marlin A. Stutzman",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No focus on our environment "
+                    },
+                    {
+                        "name": "Eric Whalen",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No focus on our environment "
+                    },
+                    {
+                        "name": "Andy Zay",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "badInfo": "Ranks bottom 10%",
+                        "info": "Voted to end net metering for rooftop solar & voted for coal bailout. One of the worst voting records in state senate."
+                    }
+                ]
+            },
+            {
+                "name": "FOURTH DISTRICT",
+                "info": "",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "noVote": "y",
+                "candidates": [
+                    {
+                        "name": "Jim Baird",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Pro-coal & voting record does not support renewable energy, voted against clean energy & electric vehicles.",
+                        "badInfo": "LCV Score <10%"
+                    },
+                    {
+                        "name": "Charles Bookwalter",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Doesn’t believe climate change is a serious problem, and does not support renewable energy"
+                    },
+                    {
+                        "name": "John P. Piper",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    }
+                ]
+            },
+            {
+                "name": "FIFTH DISTRICT",
+                "info": "",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "candidates": [
+                    {
+                        "name": "Raju Chinthala",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    },
+                    {
+                        "name": "Max Engling",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    },
+                    {
+                        "name": "Chuck Goodrich",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "badInfo": "No good votes",
+                        "info": "Voted for the coal bailout & anti-wetland bills, consistently voted against clean energy."
+                    },
+                    {
+                        "name": "Mark Hurt",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    },
+                    {
+                        "name": "Patrick Malayter",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    },
+                    {
+                        "name": "Matthew Peiffer",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    },
+                    {
+                        "name": "LD Powell",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "y",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Supports renewable energy and efforts to reduce carbon pollution."
+                    },
+                    {
+                        "name": "Larry L. Savage Jr.",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority "
+                    },
+                    {
+                        "name": "Victoria Spartz",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "badInfo": "LCV Score <10%",
+                        "info": "Pro-coal & voting record does not support renewable energy, voted against clean energy & electric vehicles."
+                    }
+                ]
+            },
+            {
+                "name": "SIXTH DISTRICT",
+                "info": "",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "candidates": [
+                    {
+                        "name": "Jamison Carrier",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Darin Childress",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Bill Frazier",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "y",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Believes climate change is a serious problem and supports renewable energy"
+                    },
+                    {
+                        "name": "John Jacob",
+                        "party": "R",
+                        "preferred": "y",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Pro-free market and pro-solar vote"
+                    },
+                    {
+                        "name": "Jeff Raatz",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "y",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Voted to keep net metering for rooftop solar and championed the HOA Solar bill"
+                    },
+                    {
+                        "name": "Jefferson Shreve",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Mike Speedy",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "y",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Voted to keep net metering for rooftop solar and championed the HOA Solar bill"
+                    }
+                ]
+            },
+            {
+                "name": "SEVENTH DISTRICT",
+                "info": "",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "candidates": [
+                    {
+                        "name": "Philip N. Davis",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Jennifer (Jenn) Pace",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Catherine (Cat) Ping",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Gabe (Honest Gabe) Whitley",
+                        "party": "R",
+                        "preferred": "y",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Believes climate change is a serious problem and supports renewable energy."
+                    }
+                ]
+            },
+            {
+                "name": "EIGHTH DISTRICT",
+                "info": "",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "noVote": "y",
+                "candidates": [
+                    {
+                        "name": "Jim (JustIN) Case",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Jeremy L. Heath",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "John N. Hostettler",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Dominick Jack Kavanaugh",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Mark Messmer",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "badInfo": "Ranks bottom 10%",
+                        "info": "As committee chair, he killed the student’s bipartisan Climate Task Force bill by not giving it a hearing.  Consistently voted against clean energy."
+                    },
+                    {
+                        "name": "Luke A. Misner",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Richard Moss",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority"
+                    },
+                    {
+                        "name": "Kristi Risk",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority & coal priority"
+                    }
+                ]
+            },
+            {
+                "name": "NINTH DISTRICT",
+                "info": "",
+                "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.gbk1yo79mc9p",
+                "noVote": "y",
+                "candidates": [
+                    {
+                        "name": "Hugh Doty",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "No pro-environment or sustainability priority & fossil fuel priority"
+                    },
+                    {
+                        "name": "Erin Houchin",
+                        "party": "R",
+                        "preferred": "",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "badInfo": "LCV Score <10%",
+                        "info": "Has a  0% score by the League of Conservation Voters, which is the wrost of the worst"
+                    }
+                ]
+            }
+          ]
+        },
+        {
+          "name": "SENATOR",
+          "races": [
+            {
+              "name": "SENATE DISTRICT 24",
+              "openSeat": "y",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.qnn04p6easo",
+              "candidates": [
+                {
+                  "name": "Brett Clark",
+                  "potential": "y",
+                  "info": "Pro-envinorment priority with focus on parks and forests. Plus preservation of farm lands."
+                },
+                {
+                  "name": "Anne L. Engelhardt",
+                  "info": "No pro-environment or sustainability priority & fossil fuel priority"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STATE REPRESENTATIVE",
+          "races": [
+              {
+                  "name": "HOUSE DISTRICT 13",
+                  "info": "",
+                  "link": "",
+                  "candidates": [
+                      {
+                          "name": "Matthew (Matt) Commons",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      },
+                      {
+                          "name": "Sharon Negele",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Voted to keep net metering for rooftop solar and voted for the HOA Solar bill."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 20",
+                  "info": "",
+                  "link": "",
+                  "noVote": "y",
+                  "candidates": [
+                      {
+                          "name": "Richard A. Horner",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      },
+                      {
+                          "name": "Jim Pressel",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "badInfo": "Voted to end Net Metering",
+                          "info": "Voted to end net metering for rooftop solar & voted for coal bailout, consistently voted anti-environment."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 24",
+                  "info": "",
+                  "link": "",
+                  "openSeat": "y",
+                  "candidates": [
+                      {
+                          "name": "Bill Gutrich",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority "
+                      },
+                      {
+                          "name": "Hunter Smith",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "y",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Owns and operates a sustainable regenerative farm."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 29",
+                  "info": "",
+                  "link": "",
+                  "openSeat": "y",
+                  "noVote": "y",
+                  "candidates": [
+                      {
+                          "name": "Laura L. Alerding",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      },
+                      {
+                          "name": "Alaina Shonkwiler",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 33",
+                  "info": "",
+                  "link": "",
+                  "noVote": "y",
+                  "candidates": [
+                      {
+                          "name": "Gregory W. LeMaster",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Unsure that climate change is a serious problem, and unsure about renewable energy as a solution."
+                      },
+                      {
+                          "name": "John (J.D.) Prescott",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Has consistently voted pro-coal, anti-solar and anti-environment"
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 40",
+                  "info": "",
+                  "link": "",
+                  "noVote": "y",
+                  "candidates": [
+                      {
+                          "name": "Brian Paasch",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      },
+                      {
+                          "name": "Gregory E. Steuerwald",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "badInfo": "Voted to end Net Metering",
+                          "info": "Voted to end net metering for rooftop solar & voted for coal bailout, consistently voted anti-environment."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 41",
+                  "info": "",
+                  "link": "",
+                  "candidates": [
+                      {
+                          "name": "Mark Genda",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "y",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Mixed Voting record"
+                      },
+                      {
+                          "name": "Joe Sturm",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "badInfo": "Doesn’t believe in facts of climate science.",
+                          "info": "Doesn’t believe climate change is a serious problem and does not support renewable energy."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 45",
+                  "info": "",
+                  "link": "",
+                  "candidates": [
+                      {
+                          "name": "Bruce Borders",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Has consistently voted pro-coal and pro-utility."
+                      },
+                      {
+                          "name": "Jeff Ellington",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "badInfo": "Voted to end Net Metering",
+                          "info": "Voted to end net metering for rooftop solar & voted for coal bailout, consistently voted anti-environment."
+                      },
+                      {
+                          "name": "Kellie E. Streeter",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "y",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Protecting Southern Indiana's control for land use decisions regarding agriculture, economic development, water, and coal."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 51",
+                  "info": "",
+                  "link": "",
+                  "openSeat": "y",
+                  "candidates": [
+                      {
+                          "name": "Tony Isa",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority "
+                      },
+                      {
+                          "name": "Rhonda Sharp",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "y",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Is a family physician and climate change has a strong health component."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 64",
+                  "info": "",
+                  "link": "",
+                  "candidates": [
+                      {
+                          "name": "Matt Hostettler",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "y",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Voted against the Wabash Valley CO2 Injection bill"
+                      },
+                      {
+                          "name": "Dale Mallory",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 66",
+                  "info": "",
+                  "link": "",
+                  "candidates": [
+                      {
+                          "name": "James E. (Jim) Baker",
+                          "party": "R",
+                          "preferred": "y",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Believes climate change is a serious problem and supports renewable energy."
+                      },
+                      {
+                          "name": "Zach Payne",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Voted for the anti-wetlands bill."
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 90",
+                  "info": "",
+                  "link": "",
+                  "openSeat": "y",
+                  "candidates": [
+                      {
+                          "name": "Andrew Ireland",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      },
+                      {
+                          "name": "Tim McVey",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "y",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Supports community solar"
+                      },
+                      {
+                          "name": "David W. Waters",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      },
+                      {
+                          "name": "Elizabeth Williams",
+                          "party": "R",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      }
+                  ]
+              }
+          ]
+      }
+      ]
+    },
+    {
+      "name": "Democratic Primary Candidates",
+      "groups": [
+        {
+          "name": "INDIANA GOVERNOR",
+          "races": []
+        },
+        {
+          "name": "U.S. SENATE",
+          "info": "",
+          "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.vnm0hyecsg1w",
+          "openSeat": "y",
+          "races": [
+            {
+              "name": "",
+              "candidates": [
+                  {
+                      "name": "Mark Carmichael",
+                      "party": "D",
+                      "preferred": "y",
+                      "link": "",
+                      "potential": "",
+                      "double": "",
+                      "incumbent": "",
+                      "uncontested": "",
+                      "info": "Believes climate change is a serious problem and supports renewable energy."
+                  },
+                  {
+                      "name": "Dr. Valerie McCray",
+                      "party": "D",
+                      "preferred": "y",
+                      "link": "",
+                      "potential": "",
+                      "double": "",
+                      "incumbent": "",
+                      "uncontested": "",
+                      "info": "Believes climate change is a serious problem and supports renewable energy."
+                  }
+              ]
+            }]
+        },
+        {
+          "name": "U.S. HOUSE OF REPRESENTATIVES",
+          "races": [
+            {
+              "name": "THIRD DISTRICT",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.6hh1uwhz1d3b",
+              "openSeat": "y",
+              "candidates": [
+                {
+                  "name": "Kiley M. Adolph",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "No pro-environment or sustainability priority"
+              },
+              {
+                  "name": "Phil Goss",
+                  "party": "D",
+                  "preferred": "y",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Believes climate change is a serious problem and supports renewable energy."
+              }
+              ]
+            },
+            {
+              "name": "FOURTH DISTRICT",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.6hh1uwhz1d3b",
+              "candidates": [
+                    {
+                        "name": "Rimpi K Girn",
+                        "party": "D",
+                        "preferred": "y",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Believes climate change is a serious problem and supports renewable energy."
+                    },
+                    {
+                        "name": "Derrick Holder",
+                        "party": "D",
+                        "preferred": "y",
+                        "link": "",
+                        "potential": "",
+                        "double": "",
+                        "incumbent": "",
+                        "uncontested": "",
+                        "info": "Believes climate change is a serious problem and supports renewable energy & sustainable farming."
+                    }
+              ]
+            },
+            {
+              "name": "FIFTH DISTRICT",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.6hh1uwhz1d3b",
+              "candidates": [
+                {
+                  "name": "Ryan Pfenninger",
+                  "party": "D",
+                  "preferred": "y",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Believes climate change is a serious problem and supports renewable energy."
+              },
+              {
+                  "name": "Deborah A. Pickett",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "No pro-environment or sustainability priority"
+              }
+              ]
+            },
+            {
+              "name": "SEVENTH DISTRICT",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.6hh1uwhz1d3b",
+              "candidates": [
+                {
+                  "name": "André D. Carson\n",
+                  "party": "D",
+                  "preferred": "y",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Has a strong pro-solar, pro-environmental voting record"
+              },
+              {
+                  "name": "Curtis D. Godfrey",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Pro-environment priority"
+              },
+              {
+                  "name": "Pierre Quincy Pullins",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "No pro-environment or sustainability priority"
+              }
+              ]
+            },
+            {
+              "name": "EIGHTH DISTRICT",
+              "openSeat": "y",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.6hh1uwhz1d3b",
+              "candidates": [
+                {
+                  "name": "Erik Hurt",
+                  "party": "D",
+                  "preferred": "y",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Believes climate change is a serious problem and supports renewable energy & reducing energy usage."
+              },
+              {
+                  "name": "Peter FH Priest II",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "No pro-environment or sustainability priority"
+              },
+              {
+                  "name": "Edward Upton Sein",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "No pro-environment or sustainability priority"
+              },
+              {
+                  "name": "Michael Talarzyk",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Believes climate change is a serious problem and supports renewable energy"
+              }
+              ]
+            },
+            {
+              "name": "NINTH DISTRICT",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.6hh1uwhz1d3b",
+              "candidates": [
+                {
+                  "name": "D. Liam Dorris",
+                  "party": "D",
+                  "preferred": "y",
+                  "link": "",
+                  "potential": "",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Believes climate change is a serious problem and supports renewable energy & protecting future generations."
+              },
+              {
+                  "name": "Timothy (Tim) Peck",
+                  "party": "D",
+                  "preferred": "",
+                  "link": "",
+                  "potential": "y",
+                  "double": "",
+                  "incumbent": "",
+                  "uncontested": "",
+                  "info": "Supports sustainable farming practices."
+              }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STATE SENATOR",
+          "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.v2brabtery20",
+          "races": [
+            {
+              "name": "SENATE DISTRICT 3",
+              "candidates": [
+                {
+                  "name": "Mark Spencer",
+                  "info": "Has a pro-enviroment campaign priority."
+                },
+                {
+                  "name": "David Vinzant",
+                  "preferred": "y",
+                  "info": "Opposed the anti-wetlands bill & believes climate change is a serious problem, supports renewable energy."
+                }
+              ]
+            },
+            {
+              "name": "SENATE DISTRICT 10",
+              "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.v2brabtery20",
+              "candidates": [
+                {
+                  "name": "David Lee Niezgodski",
+                  "potential": "y",
+                  "info": "Voted to keep net metering for rooftop solar & oppossed anti-wetland bills"
+                },
+                {
+                  "name": "Tim Swager",
+                  "info": "No pro-environment or sustainability priority"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STATE REPRESENTATIVE",
+          "races": [
+              {
+                  "name": "HOUSE DISTRICT 3",
+                  "info": "",
+                  "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.g8jlj2h5xoq6",
+                  "candidates": [
+                      {
+                          "name": "Ragen Hatcher",
+                          "party": "D",
+                          "preferred": "y",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Has a strong pro-solar, pro-environmental voting record."
+                      },
+                      {
+                          "name": "Heather McCarthy",
+                          "party": "D",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "y",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Believes climate change is a serious problem and supports renewable energy"
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 88",
+                  "info": "",
+                  "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.g8jlj2h5xoq6",
+                  "candidates": [
+                      {
+                          "name": "Starr Joy Hairston",
+                          "party": "D",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority"
+                      },
+                      {
+                          "name": "Stephanie Jo Yocum",
+                          "party": "D",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "\"I will work towards a future where Indiana is a state where people choose to live, businesses operate, and all thrive.\""
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 95",
+                  "info": "",
+                  "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.g8jlj2h5xoq6",
+                  "candidates": [
+                      {
+                          "name": "John L. Bartlett",
+                          "party": "D",
+                          "preferred": "y",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Has a strong pro-solar, pro-environmental voting record."
+                      },
+                      {
+                          "name": "Autumn Carter",
+                          "party": "D",
+                          "preferred": "",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "No pro-environment or sustainability priority "
+                      }
+                  ]
+              },
+              {
+                  "name": "HOUSE DISTRICT 97",
+                  "info": "",
+                  "link": "https://docs.google.com/document/d/1Y_6UdJd75vViBK8hRPvVhvTGV0l9OSsM/edit#bookmark=id.g8jlj2h5xoq6",
+                  "candidates": [
+                      {
+                          "name": "Justin Moed",
+                          "party": "D",
+                          "preferred": "y",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Has a strong pro-solar, pro-environmental voting record."
+                      },
+                      {
+                          "name": "Sarah Shydale",
+                          "party": "D",
+                          "preferred": "y",
+                          "link": "",
+                          "potential": "",
+                          "double": "",
+                          "incumbent": "",
+                          "uncontested": "",
+                          "info": "Believes climate change is a serious problem and supports renewable energy."
+                      }
+                  ]
+              }
+          ]
+      }
+      ]
+    }
+  ]
+}

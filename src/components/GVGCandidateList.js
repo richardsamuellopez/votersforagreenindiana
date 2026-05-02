@@ -18,7 +18,7 @@ const GVGCandidateList = ({data}) => {
     };
 
     const camelize = s => s && s[0].toUpperCase() + s.slice(1).toLowerCase();
-
+    if(data.nodes.length <= 1 ) return <></>
     return (<div className="candidate-list">
         {data.nodes.map((race, index) => {
             return (

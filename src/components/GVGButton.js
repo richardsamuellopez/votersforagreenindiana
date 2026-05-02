@@ -13,12 +13,12 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Check = () => {
+const GVGButton = () => {
   const image = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "vgi-check.png" }) {
+      placeholderImage: file(relativePath: { eq: "GVG-button.jpg" }) {
         childImageSharp {
-          fixed(width: 75, height: 50) {
+          fixed(width: 250) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -29,4 +29,4 @@ const Check = () => {
   return <div className="check"><Img fixed={image.placeholderImage.childImageSharp.fixed} /></div>
 }
 
-export default Check
+export default GVGButton

@@ -13,6 +13,6 @@
     flex: 2 0 0;
 }
 
-.flex-container :nth-child(2) {
+.flex-container :nth-child(2) .gvg-info{
     flex: 1 0 0;
  } 

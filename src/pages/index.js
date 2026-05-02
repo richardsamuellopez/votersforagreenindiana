@@ -34,8 +34,8 @@ const IndexPage = () => (
       </div>
       <div className="item">
         <ul>
-          {/* <DocList search="Press Release" /> */}
-          <Link to={'https://drive.google.com/file/d/1lvLs-90AJ8R8oOuDJ1TExGPHgeT8byOU/view?usp=share_link'}>2023 Municipal Primary – Press Release</Link>
+          <DocList search="Campaign Funds" />
+          <DocList search="Voting Record" />
         </ul>
       </div>
     </div>
