@@ -10,14 +10,18 @@ interface Props {
 const { search, exclude } = Astro.props;
 
 const docsPath = path.join(process.cwd(), "public", "docs");
-const docs = fs
-  .readdirSync(docsPath)
+let docs = []
+if (fs.existsSync(docsPath)) {
+docs = fs.readdirSync(docsPath)
   .filter((f) => f.endsWith(".pdf"))
   .map((f) => ({ name: f.replace(".pdf", ""), url: `/docs/${f}` }))
   .filter(
     (d) => d.name.includes(search) && (!exclude || !d.name.includes(exclude))
   )
   .sort((a, b) => b.name.localeCompare(a.name));
+} else {
+  docs = [];
+}
 ---
 
 {
