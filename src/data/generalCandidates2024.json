@@ -1,1 +1,1251 @@
-{}
+{
+  "cities": [
+    {
+      "name": "STATE GOVERNOR & LT. GOVERNOR",
+      "races": [
+        {
+          "name": "",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1ThVhFfyhH3MKdUyoCvkQ2tQQx0c6ssi-/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Mike Braun & Micah Beckwith",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Has a very poor environmental voting record (6-10%), and has consistently voted against clean energy and sustainability. Has a campaign priority to oppose the transition to clean energy."
+            },
+            {
+              "name": "Jennifer G. McCormick & Terry Goodin",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://www.mccormickforgov.com/utility-affordability",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions. Has a bold Common Sense Utility Affordability Plan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "U.S. SENATE",
+      "races": [
+        {
+          "name": "",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1KmWaOCjCebsxvT_2iTedPQdh3llMiay7/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Jim Banks",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Has a very poor environmental voting record (1%). Has consistently voted against clean energy and sustainability."
+            },
+            {
+              "name": "Valerie McCray",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://valeriemccray.org/platform/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "U.S. HOUSE OF REPRESENTATIVES",
+      "races": [
+        {
+          "name": "FIRST DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1FoXMzyW1y_7XVhrty-nAsuMgXL3LsUMc/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Randy Niemeyer",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Frank J. Mrvan",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://mrvanforcongress.com/issues/",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a very good environmental voting record (99%). Has consistently supported clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "SECOND DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1N1TJ1bY021EZWTE_7tvwGJScpP789Bii/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Rudy Yakym",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a very poor environmental voting record (3%). Has consistently voted against clean energy and sustainability."
+            },
+            {
+              "name": "Lori A Camp",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://www.campforcongress.com/policies",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for climate solutions, especially for rural agricultural communities."
+            }
+          ]
+        },
+        {
+          "name": "FOURTH DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1N7B2_BTnLqHVMEVIx6fHXlPtmFOMjf3G/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Jim Baird",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a very poor environmental voting record (7%). Has consistently voted against clean energy and sustainability."
+            },
+            {
+              "name": "Derrick Holder",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://www.derrickholder.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "FIFTH DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1yyfV6pw9oSJpacUOcDqfBznr-pmyN2Ez/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Victoria Spartz",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a very poor environmental voting record (8%). Has consistently voted against clean energy and sustainability."
+            },
+            {
+              "name": "Deborah A. Pickett",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://pickettforcongress.com/priorities/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Has a campaign priority for protecting and managing our natural resources for present and future generations."
+            }
+          ]
+        },
+        {
+          "name": "SIXTH DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1ppg_Pmru3OBCD7wJlsweYbvgBoOsa-7h/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Jefferson Shreve",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Cynthia (Cinde) Wirth",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://www.wirth4congress.com/priorities.html",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "SEVENTH DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/11oEtAB_2UXFGVri5O3sv0xJ96QNUvVy6/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "John P. Schmitz",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Andr\u00e9 Carson",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://andrecarson.com/#about",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a very good environmental voting record (94%). Has consistently supported clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "EIGTH DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1_Y1MXimxiXXBGbSPsKp-XcYK_k9sZtni/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Mark Messmer",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Has consistently opposed clean energy & climate solutions and has authored several bad bills. Has one of the worst environmental voting records in the state senate ."
+            },
+            {
+              "name": "Erik Hurt",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://www.erikhurtforcongress.com/policies",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "NINTH DISTRICT",
+          "info": "",
+          "link": "https://drive.google.com/file/d/16DX9WHo2DYgosQniALO-J02e_8so7iXw/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Erin Houchin",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a very poor environmental voting record (0%). Has consistently voted against clean energy and sustainability."
+            },
+            {
+              "name": "Timothy (Tim) Peck",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://timpeckforcongress.com/beliefs-%26-values",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "An advocate for sustainable farming practices to strengthen farming communities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INDIANA STATE SENATE",
+      "races": [
+        {
+          "name": "INDIANA Senate Dist 3",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1DX0XFQIm3iKBNjgqOmeIWSA_VH8sHx_o/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Will Miller",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Limited online information."
+            },
+            {
+              "name": "Mark Spencer",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://spencerforsenator.com/about-1",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "An advocate for environmental justice and climate action."
+            }
+          ]
+        },
+        {
+          "name": "INDIANA Senate Dist 20",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1xWlV9ZTI9uqQAUcYZQc-fblL_hLMJZAZ/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Scott A. Baldwin",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has consistently opposed clean energy & climate solutions, and has a very poor environmental voting record."
+            },
+            {
+              "name": "Joel Levi",
+              "party": "D",
+              "preferred": "y",
+              "link": "joelleviforindiana.com",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and sustainability."
+            }
+          ]
+        },
+        {
+          "name": "INDIANA Senate Dist 24",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1jXhOMz5XYBHb_GMZF4PzvXqjspuUv3LM/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Brett Clark",
+              "party": "R",
+              "preferred": "y",
+              "link": "https://www.clarkforstatesenate.org/issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A pro-environment advocate, focus on LEAP."
+            },
+            {
+              "name": "Veronica J Pejril",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://www.veronicaforindiana.com/issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A pro-environment advocate, focus on LEAP. Also supports clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "INDIANA Senate Dist 28",
+          "info": "",
+          "link": "https://drive.google.com/file/d/14lDCr1uY5fCxwtzic8dYzb62GW3KNe0W/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Michael Crider",
+              "party": "R",
+              "preferred": "y",
+              "link": "https://www.indianasenaterepublicans.com/crider",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has several good environmental votes."
+            },
+            {
+              "name": "Travis E. Chittum",
+              "party": "L",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Limited online information."
+            }
+          ]
+        },
+        {
+          "name": "INDIANA Senate Dist 32",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1H_fXqyUeWQkt-9ivEDblLNVJY0-4Ia3f/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Aaron Freeman",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a poor environmental voting record, and authored two bad bills. Has some good votes."
+            },
+            {
+              "name": "Katrina Owens",
+              "party": "D",
+              "preferred": "y",
+              "link": "https://www.owens4in.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "INDIANA Senate Dist 50",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1qJlxBvK7yODCm-BYYLrnsNfX4WeqtaNW/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Vaneta Becker",
+              "party": "R",
+              "preferred": "y",
+              "link": "https://www.indianasenaterepublicans.com/becker",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A good advocate for clean energy and climate solutions and has a good environmental voting record."
+            },
+            {
+              "name": "John Woodard",
+              "party": "I",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Limited online information."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INDIANA STATE HOUSE",
+      "races": [
+        {
+          "name": "State House Dist 3",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1dlUlboU_QtYfrRbgJHp_HJMz8V2LkXOy/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Leslie A. Dallner",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Ragen Hatcher",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://indianahousedemocrats.org/members/ragen-hatcher/full",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 4",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1PpNYd5GxsiaSyh2OSacqwEt73KxkEkwz/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Ed Soliday",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has consistently opposed clean energy & climate solutions and has authored several bad bills. As chair of the House Utilities Committee, blocked many good bills and pushed through many bad bills. Has one of the worst environmental voting records in the State House."
+            },
+            {
+              "name": "Erika Robinson-Watkins",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.erikaforindiana.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for environmental sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 5",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1qsBZFmza5KdG9VtHLqmHbBgUcg-B_kD3/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Dale DeVon",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "As member of the House Utilities Committee, has consistently opposed clean energy & climate solutions. Has a very poor environmental voting record"
+            },
+            {
+              "name": "Heidi Beidinger",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.heidiforindiana.com/values",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 6",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1di-3Fnf9zBMWgdiCcbYwTvMDnbmicJaI/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Maureen Bauer",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://indianahousedemocrats.org/members/maureen-bauer/full",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            },
+            {
+              "name": "Charlie Florance",
+              "party": "L",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are a low priority."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 9",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1Gb23cmBcqDwFoZy9AHwcTV6uyzjeF1V8/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Joel Florek",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are a low priority."
+            },
+            {
+              "name": "Patricia A (Pat) Boy",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://patboy.org/#issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 16",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1VCSu_rjjmGj9BYxkCHskMRkDd-zyTErg/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Kendell Culp",
+              "party": "R",
+              "preferred": "",
+              "link": "www.electkendellculp.com",
+              "potential": "y",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a mixed environmental voting record."
+            },
+            {
+              "name": "Dennis Collins",
+              "party": "D",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Very limited online information."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 24",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1WOhrD8HuJ-wd2UPrREB3nvL9Upf19Drl/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Hunter Smith",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Owns and operates a regenerative farm, but clean energy and climate are not campaign priorities."
+            },
+            {
+              "name": "Josh Lowry",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://lowryforindiana.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A pro-environment, clean energy advocate."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 25",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1XuGHEa-LI7H_dK-kSemnfJl-xxRwVYYw/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Becky Cash",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a mixed environmental voting record"
+            },
+            {
+              "name": "Tiffany Stoner",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.tiffanystoner.com/Priorities/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 26",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1sDYd_H73qgJj0gWvOO83I_sQ72cuwWI-/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "James K. (Jim) Schenke",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are a low priority."
+            },
+            {
+              "name": "Chris Campbell",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://votecampbell.org/issues/",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 27",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1tjysnV1bmfY4XZaqPe06RdyUkR0-toDm/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Oscar Alvarez",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are a low priority."
+            },
+            {
+              "name": "Sheila J. Klinker",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://indianahousedemocrats.org/members/sheila-klinker",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 29",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1kmLrUy3kO43iRIS0r1wFjzF1A9e4l4JT/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Alaina Shonkwiler",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Christopher Hartig",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.drchrisforindiana.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 32",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1DNschbZ9QKbbzbfDCv82Ete5o0CAV5du/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Patricia Bratton",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Victoria Garcia Wilburn",
+              "party": "D",
+              "preferred": "Y",
+              "link": "wilburnforindiana.com",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 34",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1sTMuieJYqI-X3Kc_5NhT0v7SHfpIRCUz/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Susan Dillon",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Sue Errington",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.sueerrington.org/issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 39",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1MD9tWlDem-FNp_xSHFJBvzjw-jlJSbYG/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Daniel (Danny) Lopez",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Matt McNally",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.mcnallyforindiana.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A pro-environment advocate to protect our water, wetlands and forest."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 47",
+          "info": "",
+          "link": "https://drive.google.com/file/d/13krUK36VIxNEr6t0MpXqmMSz8qggsY3x/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Robb Greene",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has generlly voted against the environment."
+            },
+            {
+              "name": "Michael E Potter",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://friendsofmichaelpotter.com/platform",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A pro-environment advocate."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 53",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1apLWi0LBkKH8h6tk96b3RF1ZGQgmF3s_/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Ethan J. Lawson",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Nate Anderson",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://nateforindiana.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A pro-environment, clean energy and climate advocate."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 60",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1cQPdnwyvsQCBmuhqpG1SmxxQ4sdNlWGW/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Peggy Mayfield",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has consistently opposed clean energy & climate solutions, and has a very poor environmental voting record."
+            },
+            {
+              "name": "Michelle Higgs",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://voteformichellehiggs.com/issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and environmental sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 62",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1z3-p7hsZI4ekMe829fn3h5Dqor2hri93/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Dave Hall",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a mixed environmental voting record."
+            },
+            {
+              "name": "Thomas Horrocks",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.horrocksforhoosiers.com/issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 74",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1PNElGoL75nFlHJHxFhagGLVSWSkcwUdw/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Stephen R. Bartels",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has consistently opposed clean energy & climate solutions, and has a very poor environmental voting record."
+            },
+            {
+              "name": "Bob Compton",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://comptonforprogress.com/issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 83",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1twgj4fvJkXJ4VZylYUIp67iDntHx6YGf/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Christopher N. Judy",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has consistently opposed clean energy & climate solutions, and has a very poor environmental voting record."
+            },
+            {
+              "name": "Kyle Thele",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://kyleforstaterep.com/the-issues/",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for environmental sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 85",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1dVBqbvRLISa4Q7vaqkhryQUotox86diN/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Dave Heine",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has consistently opposed clean energy & climate solutions, and has a very poor environmental voting record."
+            },
+            {
+              "name": "Phil Goss",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.philgossforcongress.com/home",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and sustainability."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 92",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1W0iUUiU1Q_QrRHaW2pSHxwLRtkDwLJwA/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "John L. Couch",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are a low priority."
+            },
+            {
+              "name": "Rene\u00e9 Pack",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://indianahousedemocrats.org/members/renee-pack/full",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 97",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1jjVYoCk0amUcCjmQX8f1OJz4d_nF9fRC/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Stephen Whitmer",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Does not accept climate science, but agrees with efforts to reduce carbon pollution."
+            },
+            {
+              "name": "Justin Moed",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://neighborsforjustinmoed.com/issues",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A good advocate for clean energy and climate solutions and has a good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 98",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1R_iYly4TWGun-_nsyAavvRsKpynDbDNI/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Robin Shackleford",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://ballotpedia.org/Robin_Shackleford",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            },
+            {
+              "name": "Elizabeth (Libby) Glass",
+              "party": "L",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are a low priority."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 99",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1KiNrpNv7iOToee4lWcKBBqpcygYEoXP-/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Felipe Rios",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Clean energy and climate solutions are not a priority."
+            },
+            {
+              "name": "Vanessa J. Summers",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://indianahousedemocrats.org/members/vanessa-summers/full",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "A strong advocate for clean energy and climate solutions and has a very good environmental voting record."
+            }
+          ]
+        },
+        {
+          "name": "State House Dist 100",
+          "info": "",
+          "link": "https://drive.google.com/file/d/1Y58xdnrmj3tINoiSLP7B-rCrNNPzHaRr/view?usp=drive_link",
+          "candidates": [
+            {
+              "name": "Joseph Bortka",
+              "party": "R",
+              "preferred": "",
+              "link": "",
+              "potential": "",
+              "double": "",
+              "incumbent": "",
+              "uncontested": "",
+              "info": "Limited online information."
+            },
+            {
+              "name": "Blake Johnson",
+              "party": "D",
+              "preferred": "Y",
+              "link": "https://www.johnsonforthehouse.com/",
+              "potential": "",
+              "double": "",
+              "incumbent": "y",
+              "uncontested": "",
+              "info": "Has a good environmental voting record and some bad votes."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "title": "2024 General Election",
+  "electionDate": "November 5th, 2024",
+  "earlyVoting": "October 8th, 2024",
+  "primary": false
+}
