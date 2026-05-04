@@ -1,0 +1,26 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import GuideContent from "../../components/GuideContent.jsx";
+import data from "../../data/generalCandidates2024.json";
+---
+
+<Layout title="Green Voters Guide">
+  <h1>2024 GENERAL ELECTION GREEN VOTERS GUIDE</h1>
+  <div class="flex-container">
+    <div class="item">
+      <p>
+        The Green Voters Guide represents a non-partisan evaluation of voting records, ratings, policy positions, campaign priorities and financial contributions from the fossil fuel industry to identify the "greener" candidate(s) within select races. Due to limited resources, only major party candidates in select contested races are evaluated. Evaluations are conducted by a non-partisan committee of 1 Republican, 1 Democrat and 1 Independent who care deeply about addressing climate change. The environmentally-friendly candidates who in our opinion are most likely to address climate issues get a green checkmark.
+      </p>
+      <p>
+        <b><u>Election Information</u></b>
+        <ul>
+          <li>Early voting begins October 8th. Find locations &amp; hours at the Election Office for your county.</li>
+          <li>GENERAL ELECTION DAY is on Tuesday, November 5th. Polls are open 6 am – 6 pm, prevailing local time.</li>
+          <li>To see your ballot, your voting location, and voting status, go to <a href="https://indianavoters.in.gov/">https://indianavoters.in.gov/</a>.</li>
+          <li>To find your current elected officials, go to <a href="http://iga.in.gov/legislative/find-legislators/">http://iga.in.gov/legislative/find-legislators/</a></li>
+        </ul>
+      </p>
+      <GuideContent staticData={data} client:load />
+    </div>
+  </div>
+</Layout>
