@@ -1,0 +1,83 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Voters for a Green Indiana is a nonpartisan group of volunteers who take climate change very seriously. We believe candidates who understand the ongoing energy and climate challenges are best qualified to lead us through these changes.",
+} = Astro.props;
+
+const siteTitle = "Voters for a Green Indiana";
+const menuLinks = [
+  { name: "About", link: "/" },
+  { name: "Candidate Views", link: "/candidate-views" },
+  { name: "Voters Guide", link: "/guide" },
+  { name: "Contact Us", link: "/contact" },
+];
+
+import "../components/layout.css";
+import "../components/nav.css";
+import "../styles/index.css";
+import "../styles/guide.css";
+import "../styles/candidate-views.css";
+import "../styles/contact.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={`${title} | ${siteTitle}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <title>{title} | {siteTitle}</title>
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header style="background: #A4CC8D; margin-bottom: 1.45rem;">
+        <div
+          style="margin: 0 auto; max-width: 960px; padding: 1.45rem 1.0875rem; display: flex; align-items: center;"
+        >
+          <div class="logo">
+            <a href="/">
+              <img
+                src="/images/vgi-logo-transparant.png"
+                width="300"
+                height="85"
+                alt="Voters for a Green Indiana"
+              />
+            </a>
+          </div>
+          <nav>
+            <ul>
+              {
+                menuLinks.map((link) => (
+                  <li style="list-style-type: none;">
+                    <a href={link.link}>{link.name}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main
+        class="body"
+        style="margin: 0 auto; max-width: 960px; padding: 0px 1.0875rem 66px; padding-top: 0;"
+      >
+        <slot />
+      </main>
+      <footer
+        style="background-color: black; color: white; text-align: center; padding: 20px;"
+      >
+        &copy; {new Date().getFullYear()}
+        {siteTitle}
+      </footer>
+    </div>
+  </body>
+</html>

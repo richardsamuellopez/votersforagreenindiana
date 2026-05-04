@@ -1,0 +1,52 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Contact Us">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+      <ul class="flex-outer">
+        <li>
+          <label for="first-name">First Name</label>
+          <input
+            name="first"
+            type="text"
+            id="first-name"
+            placeholder="Enter your first name here"
+          />
+        </li>
+        <li>
+          <label for="last-name">Last Name</label>
+          <input
+            name="last"
+            type="text"
+            id="last-name"
+            placeholder="Enter your last name here"
+          />
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input
+            name="email"
+            type="email"
+            id="email"
+            placeholder="Enter your email here"
+          />
+        </li>
+        <li>
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            rows="6"
+            id="message"
+            placeholder="Enter your message here"></textarea>
+        </li>
+        <li>
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+</Layout>

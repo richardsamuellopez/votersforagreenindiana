@@ -1,0 +1,31 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+
+interface Props {
+  search: string;
+  exclude?: string;
+}
+
+const { search, exclude } = Astro.props;
+
+const docsPath = path.join(process.cwd(), "public", "docs");
+const docs = fs
+  .readdirSync(docsPath)
+  .filter((f) => f.endsWith(".pdf"))
+  .map((f) => ({ name: f.replace(".pdf", ""), url: `/docs/${f}` }))
+  .filter(
+    (d) => d.name.includes(search) && (!exclude || !d.name.includes(exclude))
+  )
+  .sort((a, b) => b.name.localeCompare(a.name));
+---
+
+{
+  docs.map((doc) => (
+    <li>
+      <a href={doc.url} download={`${doc.name}.pdf`}>
+        {doc.name}
+      </a>
+    </li>
+  ))
+}
