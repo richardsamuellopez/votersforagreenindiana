@@ -6,7 +6,74 @@
 
 .candidate-row {
     display: flex;
+    flex-direction: column;
     border-bottom: 1px solid black;
+}
+
+.candidate-item-race {
+    flex: 1 1 auto;
+    font-weight: bold;
+}
+
+.candidate-names-row {
+    display: flex;
+}
+
+.candidate-names-row > * {
+    flex: 1 1 50%;
+}
+
+.candidate-info-panel {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.public-record-banner {
+    background-color: #A4CC8D;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 0;
+    margin-bottom: 10px;
+}
+
+.questionnaire {
+    margin-top: 15px;
+}
+
+.questionnaire-banner {
+    background-color: #A4CC8D;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 0;
+    margin-bottom: 10px;
+}
+
+.questionnaire-item {
+    margin-bottom: 12px;
+}
+
+.candidate-item-question {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.candidate-item-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expand-icon {
+    flex-shrink: 0;
+    margin-left: 8px;
+    color: #018038;
+    transition: transform 0.2s ease;
+}
+
+.expand-icon.expanded {
+    transform: rotate(180deg);
 }
 
 .candidate-item {
@@ -78,20 +145,8 @@ a:visited {
     color: blue;
 }
 
-@media (max-width: 800px) {
-    .candidate-row {
-        flex-wrap: wrap;
-    }
-    .candidate-item:first-of-type {
-        flex: 1 1 100%;
-    }
-}
-
 @media (max-width: 500px) {
-    .candidate-row {
+    .candidate-names-row {
         flex-direction: column;
-    }
-    .candidate-item:not(:first-child) {
-        padding-left: 20px;
     }
 }
