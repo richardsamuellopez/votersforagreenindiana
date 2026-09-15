@@ -44,7 +44,7 @@ export default function CandidateList({ data }) {
   };
 
   return (
-    <div className="candidate-list">
+    <div className="candidate-list-candidate-views">
       {data.cities.map((city, i) => (
         <div key={i}>
           {city.races.map((race, j) => {

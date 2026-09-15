@@ -4,7 +4,7 @@ export default function GVGCandidateList({ data }) {
   if (!data?.cities) return null;
 
   return (
-    <div className="candidate-list">
+    <div className="candidate-list-gvg">
       {data.cities.map((city, i) => (
         <div key={i}>
           <h1 className="uppercase green">{city.name}</h1>
