@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    border: 1px solid black;
 }
 
 .candidate-row {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid black;
 }
 
 .candidate-item-race {
@@ -17,10 +17,24 @@
 
 .candidate-names-row {
     display: flex;
+    border-top: 1px solid black; border-bottom: 1px solid black;
 }
 
 .candidate-names-row > * {
     flex: 1 1 50%;
+}
+
+.candidate-names-row > .candidate-item:nth-of-type(2) {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.candidate-names-row > .gvg-info:nth-of-type(2) {
+    border-left: 1px solid black;
+}
+.gvg-info {
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .candidate-info-panel {
@@ -34,11 +48,6 @@
     font-weight: bold;
     letter-spacing: 1px;
     padding: 8px 0;
-    margin-bottom: 10px;
-}
-
-.questionnaire {
-    margin-top: 15px;
 }
 
 .questionnaire-banner {
@@ -47,7 +56,6 @@
     font-weight: bold;
     letter-spacing: 1px;
     padding: 8px 0;
-    margin-bottom: 10px;
 }
 
 .questionnaire-item {
@@ -56,7 +64,7 @@
 
 .candidate-item-question {
     font-weight: bold;
-    margin-bottom: 4px;
+    margin: 10px;
 }
 
 .candidate-item-toggle {
@@ -78,6 +86,7 @@
 
 .candidate-item {
     flex: 1 1 30%;
+    padding-left: 10px;
 }
 
 .gvg-race-row {
