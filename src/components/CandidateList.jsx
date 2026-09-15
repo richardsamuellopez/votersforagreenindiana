@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const getBeforeAmpersand = (str) => {
   if (!str) return '';
@@ -113,6 +114,7 @@ export default function CandidateList({ data }) {
                     {race.link && (
                       <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
                     )}
+                    <Link to="/guide" className="gvg-button">Green Voters Guide</Link>
                   </div>
                 )}
               </div>
