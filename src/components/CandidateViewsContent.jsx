@@ -11,7 +11,7 @@ function Spinner() {
   );
 }
 
-export default function CandidateViewsContent({ staticData }) {
+export default function CandidateViewsContent({ staticData, ListComponent = CandidateList }) {
   const isEmpty = !staticData || JSON.stringify(staticData) === '{}';
   const [data, setData] = useState(isEmpty ? null : staticData);
   const [loading, setLoading] = useState(isEmpty);
@@ -24,5 +24,5 @@ export default function CandidateViewsContent({ staticData }) {
   }, []);
 
   if (loading) return <Spinner />;
-  return <CandidateList data={data} />;
+  return <ListComponent data={data} />;
 }

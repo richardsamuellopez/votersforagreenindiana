@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout';
 import CandidateViewsContent from '../../components/CandidateViewsContent';
+import CandidateListLive from '../../components/CandidateListLive';
 
 export default function CandidateViews2026General() {
   return (
@@ -14,7 +15,7 @@ export default function CandidateViews2026General() {
             In addition, candidates in select races are invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates are contacted several times; lack of a response to our inquiries is noted. Failure to provide voters with their positions indicates their opposition or low priority.
           </p>
           <p>Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.</p>
-          <CandidateViewsContent />
+          <CandidateViewsContent ListComponent={CandidateListLive} />
         </div>
       </div>
     </Layout>

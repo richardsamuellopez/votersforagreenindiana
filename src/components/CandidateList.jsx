@@ -1,8 +1,3 @@
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-
-const slugify = (str) => str.trim().replace(/\s+/g, '-');
-
 const getBeforeAmpersand = (str) => {
   if (!str) return '';
   return str.split(' & ')[0];
@@ -29,110 +24,22 @@ const shortenRaceName = (raceName) => {
 };
 
 export default function CandidateList({ data }) {
-  const [expandedRaces, setExpandedRaces] = useState(new Set());
-
-  useEffect(() => {
-    if (!data?.cities) return;
-    const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
-    if (!hash) return;
-    setExpandedRaces((prev) => new Set(prev).add(hash));
-    // Wait a tick for the panel above to render before measuring scroll position.
-    requestAnimationFrame(() => {
-      document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  }, [data]);
-
   if (!data?.cities) return null;
 
-  const toggleRace = (raceKey) => {
-    setExpandedRaces((prev) => {
-      const next = new Set(prev);
-      if (next.has(raceKey)) {
-        next.delete(raceKey);
-      } else {
-        next.add(raceKey);
-      }
-      return next;
-    });
-  };
-
   return (
-    <div className="candidate-list-candidate-views">
+    <div className="candidate-list">
       {data.cities.map((city, i) => (
         <div key={i}>
-          {city.races.map((race, j) => {
-            const raceKey = slugify(shortenRaceName(`${city.name} ${race.name}`));
-            const isExpanded = expandedRaces.has(raceKey);
-            return (
-              <div key={j}>
-                <a
-                  href={`#${raceKey}`}
-                  style={{ display: 'block' }}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleRace(raceKey);
-                  }}
-                >
-                  <div className="candidate-row">
-                    <a id={raceKey} name={raceKey}></a>
-                    <div className="candidate-item candidate-item-race">{shortenRaceName(`${city.name} ${race.name}`)}</div>
-                    <div className="candidate-names-row">
-                      <div className="candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
-                      <div className="candidate-item candidate-item-toggle">
-                        <span>{getBeforeAmpersand(race.candidates[1]?.name)}</span>
-                        <svg
-                          className={`expand-icon${isExpanded ? ' expanded' : ''}`}
-                          width="14"
-                          height="14"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          aria-hidden="true"
-                        >
-                          <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                {isExpanded && (
-                  <div className="candidate-info-panel">
-                    <div className="public-record-banner">PUBLIC RECORD</div>
-                    <div className="candidate-names-row">
-                      <div className="gvg-info" dangerouslySetInnerHTML={{ __html: race.candidates[0]?.race_sheet_info || '' }} />
-                      <div className="gvg-info" dangerouslySetInnerHTML={{ __html: race.candidates[1]?.race_sheet_info || '' }} />
-                    </div>
-                    <div className="questionnaire">
-                      <div className="questionnaire-banner">QUESTIONNAIRE</div>
-                      <div className="candidate-names-row">
-                        <div className="candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
-                        <div className="candidate-item">{getBeforeAmpersand(race.candidates[1]?.name)}</div>
-                      </div>
-                      {(Array.isArray(race.candidates[0]?.questions) ? race.candidates[0].questions : [])
-                        .map((question, k) => ({ question, k }))
-                        .filter(({ question }) => question)
-                        .map(({ question, k }) => (
-                        <div key={k} className="questionnaire-item">
-                          <div className="candidate-item candidate-item-question">{question}</div>
-                          <div className="candidate-names-row">
-                            <div className="candidate-item">{race.candidates[0]?.answers?.[k]}</div>
-                            <div className="candidate-item">{race.candidates[1]?.answers?.[k]}</div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                    {race.link && (
-                      <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
-                    )}
-                    <Link to="/guide" className="gvg-button">Green Voters Guide</Link>
-                  </div>
-                )}
+          {city.races.map((race, j) => (
+            <a key={j} href={race.link} style={{ display: 'block' }} target="_blank" rel="noopener noreferrer">
+              <div className="candidate-row">
+                <a name={`${city.name}_${race.name}`}></a>
+                <div className="candidate-item">{shortenRaceName(`${city.name} ${race.name}`)}</div>
+                <div className="candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
+                <div className="candidate-item">{getBeforeAmpersand(race.candidates[1]?.name)}</div>
               </div>
-            );
-          })}
+            </a>
+          ))}
         </div>
       ))}
     </div>
