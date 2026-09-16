@@ -1,5 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+
+const slugify = (str) => str.trim().replace(/\s+/g, '-');
 
 const getBeforeAmpersand = (str) => {
   if (!str) return '';
@@ -29,6 +31,17 @@ const shortenRaceName = (raceName) => {
 export default function CandidateList({ data }) {
   const [expandedRaces, setExpandedRaces] = useState(new Set());
 
+  useEffect(() => {
+    if (!data?.cities) return;
+    const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+    if (!hash) return;
+    setExpandedRaces((prev) => new Set(prev).add(hash));
+    // Wait a tick for the panel above to render before measuring scroll position.
+    requestAnimationFrame(() => {
+      document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }, [data]);
+
   if (!data?.cities) return null;
 
   const toggleRace = (raceKey) => {
@@ -48,12 +61,12 @@ export default function CandidateList({ data }) {
       {data.cities.map((city, i) => (
         <div key={i}>
           {city.races.map((race, j) => {
-            const raceKey = `${city.name}_${race.name}`;
+            const raceKey = slugify(shortenRaceName(`${city.name} ${race.name}`));
             const isExpanded = expandedRaces.has(raceKey);
             return (
               <div key={j}>
                 <a
-                  href="#"
+                  href={`#${raceKey}`}
                   style={{ display: 'block' }}
                   onClick={(e) => {
                     e.preventDefault();
@@ -61,7 +74,7 @@ export default function CandidateList({ data }) {
                   }}
                 >
                   <div className="candidate-row">
-                    <a name={raceKey}></a>
+                    <a id={raceKey} name={raceKey}></a>
                     <div className="candidate-item candidate-item-race">{shortenRaceName(`${city.name} ${race.name}`)}</div>
                     <div className="candidate-names-row">
                       <div className="candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
