@@ -110,7 +110,7 @@ export default function CandidateListLive({ data }) {
                       <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[0]?.race_sheet_info || '' }} />
                       <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[1]?.race_sheet_info || '' }} />
                     </div>
-                    <div className="live-questionnaire">
+                    {/* <div className="live-questionnaire">
                       <div className="live-questionnaire-banner">QUESTIONNAIRE</div>
                       <div className="live-candidate-names-row">
                         <div className="live-candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
@@ -128,7 +128,7 @@ export default function CandidateListLive({ data }) {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                     {race.link && (
                       <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
                     )}
