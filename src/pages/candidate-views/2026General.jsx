@@ -9,12 +9,35 @@ export default function CandidateViews2026General() {
         <div className="item">
           <h1 className="uppercase">2026 General Election Candidate Views</h1>
           <p>
-            There are many reasons to vote for a candidate: party affiliation, position on taxes, jobs and national security. Here, you'll get a review of the candidate's views on clean energy, clean air, clean water, climate and sustainability! Where available, it includes the candidate's policy positions, voting record, ratings and a listing of campaign contributions from the fossil fuel industry based on publicly available information.
+            There are many reasons to vote for a candidate: party affiliation, position on taxes, inflation, jobs, the Iraq war and the Epstein files.</p>
+          <p>
+            Here, we focus on clean air, clean water, clean energy, healthy soil, sustainability and resilience.
           </p>
           <p>
-            In addition, candidates in select races are invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates are contacted several times; lack of a response to our inquiries is noted. Failure to provide voters with their positions indicates their opposition or low priority.
+            Data centers are the big affordability and climate issue this election cycle.&nbsp; In recent years, Indiana legislators have passed several <a href="https://drive.google.com/file/d/1sPrwsmzkAlDBckYi5DUgYQ/view?usp=drive_link" target="_blank">bills</a> designed to attract data data centers, including tax exemptions and policies to keep aging coal plants running beyond their useful life and fast-track new gas plants to power them. These policies also allow utility trackers that shift costs onto ratepayers, while continued reliance on coal and gas plants will increase heat-trapping carbon pollution for years to come. That’s especially concerning as Hoosiers face an energy affordability crisis and dozens of communities are still recovering from a historic climate disaster in August that caused an estimated $5 billion in flood damage.&nbsp; Frequent <a href="https://www.ncei.noaa.gbillions/time-series/IN/cost" target="_blank">billion-dollar disasters</a> are centers, including tax exemptions and policies to keep aging coal plants running beyond their useful life and fast-track new gas plants to power them. These policies also allow utility trackers that shift costs onto ratepayers, while continued reliance on coal and gas plants will increase heat-trapping carbon pollution for years to come. That’s especially concerning as Hoosiers face an energy affordability crisis and dozens of communities are still recovering from a historic climate disaster in August that caused an estimated $5 billion in flood damage.&nbsp; Frequent <a href="https://www.ncei.noaa.gbillions/time-series/IN/cost" target="_blank">billion-dollar disasters</a> are making home insurance affordability an issue. We can’t afford increasingly severe and dangerous&nbsp; <a href="https://eri.iu.edu/resources/fact-sheets/extreme-heat-in-indiana.html" target="_blank">heat</a>,<a href="https://www.in.gov/drought/" target="_blank">   drought</a>, and<a href="https://www.theguardian.com/us-news/2026/aug/30/indiana-flooding-emergency-response" target="_blank"> floods</a>.
           </p>
-          <p>Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.</p>
+          <p>
+            <b><i>We’ve done the research for you!</i></b>
+          </p>
+          <p>
+            <ul>
+              <li>
+                We look at <a href="https://drive.google.com/file/d/1sFvC0p1MLOLPrwsmzkAlDBckYi5DUgYQ/view?usp=drive_link" target="_blank">voting records on key 2025-2026 bills</a> and campaign priorities.
+              </li>
+              <li>
+                In addition, candidates in select races are invited to share their views through a questionnaire. Their responses (if any) are provided. Candidates are contacted several times; lack of a response to our inquiries is noted. Failure to provide voters with their positions indicates their opposition or low priority.
+              </li>
+              <li>
+                Due to limited volunteer time and resources, only major party candidates in select contested races are evaluated.
+              </li>
+            </ul>
+          </p>
+          <p>
+            <b>Click below for a NON-PARTISAN summary of voting records and candidate views related to utility affordability, data centers, renewable energy and the environment.</b>
+          </p>
+          <p>
+            For a quick look at the green candidates, go to the Voters Guide.
+          </p>
           <CandidateViewsContent ListComponent={CandidateListLive} />
         </div>
       </div>

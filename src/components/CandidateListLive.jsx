@@ -62,82 +62,87 @@ export default function CandidateListLive({ data }) {
   };
 
   return (
-    <div className="live-candidate-list">
+    <div >
       {data.cities.map((city, i) => (
-        <div key={i}>
-          {city.races.map((race, j) => {
-            const raceKey = slugify(shortenRaceName(`${city.name} ${race.name}`));
-            const isExpanded = expandedRaces.has(raceKey);
-            return (
-              <div key={j}>
-                <a
-                  href={`#${raceKey}`}
-                  style={{ display: 'block' }}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    toggleRace(raceKey);
-                  }}
-                >
-                  <div className="live-candidate-row">
-                    <a id={raceKey} name={raceKey}></a>
-                    <div className="live-candidate-item live-candidate-item-race">{shortenRaceName(`${city.name} ${race.name}`)}</div>
-                    <div className="live-candidate-names-row">
-                      <div className="live-candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
-                      <div className="live-candidate-item live-candidate-item-toggle">
-                        <span>{getBeforeAmpersand(race.candidates[1]?.name)}</span>
-                        <svg
-                          className={`live-expand-icon${isExpanded ? ' expanded' : ''}`}
-                          width="14"
-                          height="14"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          aria-hidden="true"
-                        >
-                          <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
+        <div>
+          <h1 className="uppercase green">{city.name}</h1>
+          <div key={i} className="live-candidate-list">
+            {city.races.map((race, j) => {
+              const raceKey = slugify(shortenRaceName(`${race.name}`));
+              const isExpanded = expandedRaces.has(raceKey);
+              return (
+                <div key={j}>
+                  <a
+                    href={`#${raceKey}`}
+                    style={{ display: 'block' }}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toggleRace(raceKey);
+                    }}
+                  >
+                    <div className="live-candidate-row">
+                      <a id={raceKey} name={raceKey}></a>
+                      <div className="live-candidate-item live-candidate-item-race">
+                        {shortenRaceName(`${race.name}`)}
                       </div>
-                    </div>
-                  </div>
-                </a>
-                {isExpanded && (
-                  <div className="live-candidate-info-panel">
-                    <div className="live-public-record-banner">PUBLIC RECORD</div>
-                    <div className="live-candidate-names-row">
-                      <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[0]?.race_sheet_info || '' }} />
-                      <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[1]?.race_sheet_info || '' }} />
-                    </div>
-                    {/* <div className="live-questionnaire">
-                      <div className="live-questionnaire-banner">QUESTIONNAIRE</div>
                       <div className="live-candidate-names-row">
                         <div className="live-candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
-                        <div className="live-candidate-item">{getBeforeAmpersand(race.candidates[1]?.name)}</div>
-                      </div>
-                      {(Array.isArray(race.candidates[0]?.questions) ? race.candidates[0].questions : [])
-                        .map((question, k) => ({ question, k }))
-                        .filter(({ question }) => question)
-                        .map(({ question, k }) => (
-                        <div key={k} className="live-questionnaire-item">
-                          <div className="live-candidate-item live-candidate-item-question">{question}</div>
-                          <div className="live-candidate-names-row">
-                            <div className="live-candidate-item">{race.candidates[0]?.answers?.[k]}</div>
-                            <div className="live-candidate-item">{race.candidates[1]?.answers?.[k]}</div>
-                          </div>
+                        <div className="live-candidate-item live-candidate-item-toggle">
+                          <span>{getBeforeAmpersand(race.candidates[1]?.name)}</span>
+                          <svg
+                            className={`live-expand-icon${isExpanded ? ' expanded' : ''}`}
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            aria-hidden="true"
+                          >
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg>
                         </div>
-                      ))}
-                    </div> */}
-                    {race.link && (
-                      <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
-                    )}
-                    <Link to="/guide" className="live-gvg-button">Green Voters Guide</Link>
-                  </div>
-                )}
-              </div>
-            );
-          })}
+                      </div>
+                    </div>
+                  </a>
+                  {isExpanded && (
+                    <div className="live-candidate-info-panel">
+                      <div className="live-public-record-banner">PUBLIC RECORD</div>
+                      <div className="live-candidate-names-row">
+                        <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[0]?.race_sheet_info || '' }} />
+                        <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[1]?.race_sheet_info || '' }} />
+                      </div>
+                      {/* <div className="live-questionnaire">
+                        <div className="live-questionnaire-banner">QUESTIONNAIRE</div>
+                        <div className="live-candidate-names-row">
+                          <div className="live-candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
+                          <div className="live-candidate-item">{getBeforeAmpersand(race.candidates[1]?.name)}</div>
+                        </div>
+                        {(Array.isArray(race.candidates[0]?.questions) ? race.candidates[0].questions : [])
+                          .map((question, k) => ({ question, k }))
+                          .filter(({ question }) => question)
+                          .map(({ question, k }) => (
+                          <div key={k} className="live-questionnaire-item">
+                            <div className="live-candidate-item live-candidate-item-question">{question}</div>
+                            <div className="live-candidate-names-row">
+                              <div className="live-candidate-item">{race.candidates[0]?.answers?.[k]}</div>
+                              <div className="live-candidate-item">{race.candidates[1]?.answers?.[k]}</div>
+                            </div>
+                          </div>
+                        ))}
+                      </div> */}
+                      {race.link && (
+                        <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
+                      )}
+                      <Link to="/guide" className="live-gvg-button">Green Voters Guide</Link>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
       ))}
     </div>
