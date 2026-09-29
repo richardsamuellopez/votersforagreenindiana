@@ -82,7 +82,7 @@ export default function CandidateListLive({ data }) {
                   >
                     <div className="live-candidate-row">
                       <a id={raceKey} name={raceKey}></a>
-                      <div className="live-candidate-item live-candidate-item-race">
+                      <div className="live-candidate-item live-candidate-item-race" style={{paddingLeft: 0, textAlign: 'center'}}>
                         {shortenRaceName(`${race.name}`)}
                       </div>
                       <div className="live-candidate-names-row">
