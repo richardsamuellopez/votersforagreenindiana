@@ -86,9 +86,9 @@ export default function CandidateListLive({ data }) {
                         {shortenRaceName(`${race.name}`)}
                       </div>
                       <div className="live-candidate-names-row">
-                        <div className="live-candidate-item">{getBeforeAmpersand(race.candidates[0]?.name)}</div>
-                        <div className="live-candidate-item live-candidate-item-toggle">
-                          <span>{getBeforeAmpersand(race.candidates[1]?.name)}</span>
+                        <div className="live-candidate-item" style={{paddingLeft: 0, textAlign: 'center'}}>{getBeforeAmpersand(race.candidates[0]?.name)}</div>
+                        <div className="live-candidate-item live-candidate-item-toggle" style={{paddingLeft: 0, textAlign: 'center'}}>
+                          <div style={{flex: 1, paddingLeft: 0, textAlign: 'center'}}>{getBeforeAmpersand(race.candidates[1]?.name)}</div>
                           <svg
                             className={`live-expand-icon${isExpanded ? ' expanded' : ''}`}
                             width="14"
