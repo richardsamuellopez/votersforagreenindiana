@@ -33,7 +33,7 @@ export default function CandidateViews2026General() {
             </ul>
           </p>
           <p>
-            <b>Click below for a NON-PARTISAN summary of voting records and candidate views related to utility affordability, data centers, renewable energy and the environment.</b>
+            <b>Click below for a NON-PARTISAN review of voting records and campaign priorities related to utility affordability, data centers, renewable energy and the environment and a summary of questionnaire responses.</b>
           </p>
           <p>
             For a quick look at the green candidates, go to the Voters Guide.

@@ -158,20 +158,21 @@ a:visited {
     width: fit-content;
     margin: 10px auto 0;
     padding: 10px 24px;
-    background-color: #e0e0e0;
-    color: #018038;
+    background-color: #018038;
+    color: #e0e0e0;
     font-weight: bold;
+    font-size: 36px;
     text-decoration: none;
     text-align: center;
     border-radius: 4px;
 }
 
 .live-gvg-button:hover {
-    background-color: #d0d0d0;
+    background-color: #A4CC8D;
 }
 
 .live-gvg-button:visited {
-    color: #018038;
+    color: #e0e0e0;
 }
 
 .live-public-record-banner,

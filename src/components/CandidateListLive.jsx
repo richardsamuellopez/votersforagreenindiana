@@ -109,7 +109,6 @@ export default function CandidateListLive({ data }) {
                   </a>
                   {isExpanded && (
                     <div className="live-candidate-info-panel">
-                      <div className="live-public-record-banner">PUBLIC RECORD</div>
                       <div className="live-candidate-names-row">
                         <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[0]?.race_sheet_info || '' }} />
                         <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[1]?.race_sheet_info || '' }} />
@@ -136,7 +135,7 @@ export default function CandidateListLive({ data }) {
                       {race.link && (
                         <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
                       )}
-                      <Link to="/guide" className="live-gvg-button">Green Voters Guide</Link>
+                      <Link to="/guide" className="live-gvg-button">Click here to see who's green!</Link>
                     </div>
                   )}
                 </div>
