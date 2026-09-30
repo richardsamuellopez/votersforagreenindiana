@@ -109,7 +109,7 @@ export default function CandidateListLive({ data }) {
                   </a>
                   {isExpanded && (
                     <div className="live-candidate-info-panel">
-                      <div className="live-candidate-names-row">
+                      <div className="live-candidate-info-row">
                         <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[0]?.race_sheet_info || '' }} />
                         <div className="live-info" dangerouslySetInnerHTML={{ __html: race.candidates[1]?.race_sheet_info || '' }} />
                       </div>
