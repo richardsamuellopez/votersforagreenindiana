@@ -135,7 +135,7 @@ export default function CandidateListLive({ data }) {
                       {race.link && (
                         <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
                       )}
-                      <Link to="/guide" className="live-gvg-button">Click here to see who's green!</Link>
+                      <Link to={`/guide/#${raceKey}`} className="live-gvg-button">Click here to see who's green!</Link>
                     </div>
                   )}
                 </div>
