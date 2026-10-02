@@ -9,7 +9,7 @@ export default function CandidateViews2026General() {
         <div className="item">
           <h1 className="uppercase">2026 General Election Candidate Views</h1>
           <p>
-            There are many reasons to vote for a candidate: party affiliation, position on taxes, inflation, jobs, the Iraq war and the Epstein files.</p>
+            There are many reasons to vote for a candidate: party affiliation, position on taxes, inflation, jobs, the Iran war and the Epstein files.</p>
           <p>
             Here, we focus on clean air, clean water, clean energy, healthy soil, sustainability and resilience.
           </p>
