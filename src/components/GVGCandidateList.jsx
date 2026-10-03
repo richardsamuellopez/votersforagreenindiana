@@ -1,5 +1,6 @@
 import Check from './Check';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const slugify = (str) => str.trim().replace(/\s+/g, '-');
 
@@ -72,7 +73,8 @@ export default function GVGCandidateList({ data }) {
                         </div>
                         <div className="gvg-column-2">
                           <div className="gvg-name">
-                            {candidate.link ? <a href={candidate.link}>{candidate.name}</a> : candidate.name}
+                            <Link to={`/candidate-views/#${raceKey}`}>{candidate.name}</Link>
+                            {/* {candidate.link ? <a href={candidate.link}>{candidate.name}</a> : candidate.name} */}
                             , {candidate.party.toUpperCase()}
                             <span className="gvg-incumbent">
                               {candidate.incumbent && '(Incumbent)'}
