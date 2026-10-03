@@ -49,7 +49,7 @@ export default function GVGCandidateList({ data }) {
                 <div key={j}>
                   <h3 className="gvg-race uppercase bold">
                     {race.name.replace('STATE', '')}
-                    <a name={race.name.replace(/ /g, '')}></a>
+                    <a id={raceKey} name={race.name.replace(/ /g, '')}></a>
                   </h3>
                   <div className="gvg-race-row">
                     {race.info && (
@@ -59,7 +59,7 @@ export default function GVGCandidateList({ data }) {
                       </div>
                     )}
                     {race.candidates.map((candidate, k) => (
-                      <div key={k} id={raceKey} name={raceKey} className="gvg-candidate-item">
+                      <div key={k} className="gvg-candidate-item">
                         <div className="gvg-preferred">
                           {candidate.preferred === 'dislike' || candidate.preferred === 'n' ? (
                             <div className="bad-candidate" style={{ display: 'flex', color: 'red', padding: '5px 25px', fontSize: '32px' }}>X</div>
