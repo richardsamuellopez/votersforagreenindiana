@@ -73,8 +73,7 @@ export default function GVGCandidateList({ data }) {
                         </div>
                         <div className="gvg-column-2">
                           <div className="gvg-name">
-                            <Link to={`/candidate-views/#${raceKey}`}>{candidate.name}</Link>
-                            {/* {candidate.link ? <a href={candidate.link}>{candidate.name}</a> : candidate.name} */}
+                            {candidate.link ? <a href={candidate.link}>{candidate.name}</a> : candidate.name}
                             , {candidate.party.toUpperCase()}
                             <span className="gvg-incumbent">
                               {candidate.incumbent && '(Incumbent)'}
@@ -88,6 +87,7 @@ export default function GVGCandidateList({ data }) {
                     <div className="gvg-candidate-item">
                       <div className="gvg-preferred"></div>
                       <div className="gvg-column-2">
+                        <Link to={`/candidate-views/#${raceKey}`}>Read more about these candidates.</Link>
                         {race.link && (
                           <a href={race.link} target="_blank" rel="noopener noreferrer">Read more about these candidates.</a>
                         )}
