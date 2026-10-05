@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import CandidateList from './CandidateList';
 
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxanDC3M7cebGht3CBV6DfNgNnfLIut4gtrUd1VUjIJ7XQjaCRUpc0a2uIw2OUEK7uYOg/exec';
-
+// const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxanDC3M7cebGht3CBV6DfNgNnfLIut4gtrUd1VUjIJ7XQjaCRUpc0a2uIw2OUEK7uYOg/exec';
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwbwgXYOVde8l5OQ8AifJDKqOpNY46PSlOdbQyMZDzQE08EVulte2lw9-k-x0a3Ae2dyg/exec';
 function Spinner() {
   return (
     <div className="lds-spinner">
@@ -11,7 +11,7 @@ function Spinner() {
   );
 }
 
-export default function CandidateViewsContent({ staticData }) {
+export default function CandidateViewsContent({ staticData, ListComponent = CandidateList }) {
   const isEmpty = !staticData || JSON.stringify(staticData) === '{}';
   const [data, setData] = useState(isEmpty ? null : staticData);
   const [loading, setLoading] = useState(isEmpty);
@@ -24,5 +24,5 @@ export default function CandidateViewsContent({ staticData }) {
   }, []);
 
   if (loading) return <Spinner />;
-  return <CandidateList data={data} />;
+  return <ListComponent data={data} />;
 }

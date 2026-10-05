@@ -95,3 +95,141 @@ a:visited {
         padding-left: 20px;
     }
 }
+
+/* ------------------------------------------------------------------ */
+/* CandidateListLive (2026 General only) — fully namespaced under      */
+/* "live-" so none of this affects CandidateList, candidateList4, or   */
+/* the GVGCandidateList* components used on other years/guide pages.   */
+/* ------------------------------------------------------------------ */
+
+.live-candidate-list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+.live-candidate-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.live-candidate-item {
+    flex: 1 1 30%;
+    padding-left: 10px;
+}
+
+.live-candidate-item-race {
+    flex: 1 1 auto;
+    font-weight: bold;
+}
+
+.live-candidate-names-row {
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.live-candidate-names-row > * {
+    flex: 1 1 50%;
+}
+
+.live-candidate-names-row > .live-candidate-item:nth-of-type(2) {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.live-candidate-names-row > .live-info:nth-of-type(2) {
+    border-left: 1px solid black;
+}
+
+.live-candidate-info-row {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.live-candidate-info-row > * {
+    flex: 1 1 50%;
+}
+
+.live-candidate-info-row > .live-candidate-item:nth-of-type(2) {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.live-candidate-info-row > .live-info:nth-of-type(2) {
+    border-left: 1px solid black;
+}
+
+.live-info {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.live-candidate-info-panel {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.live-gvg-button {
+    display: block;
+    width: fit-content;
+    margin: 10px auto 0;
+    padding: 10px 24px;
+    background-color: #018038;
+    color: #e0e0e0;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.live-gvg-button:hover {
+    background-color: #A4CC8D;
+}
+
+.live-gvg-button:visited {
+    color: #e0e0e0;
+}
+
+.live-public-record-banner,
+.live-questionnaire-banner {
+    background-color: #A4CC8D;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 0;
+}
+
+.live-questionnaire-item {
+    margin-bottom: 12px;
+}
+
+.live-candidate-item-question {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.live-candidate-item-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.live-expand-icon {
+    flex-shrink: 0;
+    margin-left: 8px;
+    color: #018038;
+    transition: transform 0.2s ease;
+}
+
+.live-expand-icon.expanded {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 500px) {
+    .live-candidate-names-row {
+        flex-direction: column;
+    }
+}

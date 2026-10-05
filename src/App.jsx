@@ -25,7 +25,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<AboutPage />} />
-      <Route path="/candidate-views" element={<CandidateViews2026Primary />} />
+      <Route path="/candidate-views" element={<CandidateViews2026General />} />
       <Route path="/candidate-views/2022-general-election" element={<CandidateViews2022General />} />
       <Route path="/candidate-views/2023-primary" element={<CandidateViews2023Primary />} />
       <Route path="/candidate-views/2023GeneralCandidateViews" element={<CandidateViews2023General />} />
@@ -33,7 +33,7 @@ export default function App() {
       <Route path="/candidate-views/2024-primary" element={<CandidateViews2024Primary />} />
       <Route path="/candidate-views/2026-general" element={<CandidateViews2026General />} />
       <Route path="/candidate-views/2026-primary" element={<CandidateViews2026Primary />} />
-      <Route path="/guide" element={<Guide2026Primary />} />
+      <Route path="/guide" element={<Guide2026General />} />
       <Route path="/guide/2022-general-election" element={<Guide2022General />} />
       <Route path="/guide/2023-primary" element={<Guide2023Primary />} />
       <Route path="/guide/2023GeneralGreenVotersGuide" element={<Guide2023General />} />

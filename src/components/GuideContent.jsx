@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import GVGCandidateList from './GVGCandidateList';
 
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxanDC3M7cebGht3CBV6DfNgNnfLIut4gtrUd1VUjIJ7XQjaCRUpc0a2uIw2OUEK7uYOg/exec';
+// const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxanDC3M7cebGht3CBV6DfNgNnfLIut4gtrUd1VUjIJ7XQjaCRUpc0a2uIw2OUEK7uYOg/exec';
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwbwgXYOVde8l5OQ8AifJDKqOpNY46PSlOdbQyMZDzQE08EVulte2lw9-k-x0a3Ae2dyg/exec';
 
 function Spinner() {
   return (

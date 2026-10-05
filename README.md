@@ -1,19 +1,19 @@
 <h1 align="center">
-  Voters for a Green Indiana 
+  Voters for a Green Indiana
 </h1>
 <p>
-  This is the repo for the votersforagreenindiana.org site. It is built with gatsby and deployed with netlify.
+  This is the repo for the votersforagreenindiana.org site. It is a Vite + React
+  single-page app (React Router) and is deployed with Netlify.
 </p>
 
 ## 🚀 Quick start
-1.  **Run develop.**
 
-    ```shell
-    gatsby develop
-    ```
+```shell
+npm install     # first time only
+npm run dev      # start the dev server at http://localhost:5173
+```
 
-    ```shell
-    npm start
-    ```
+Other scripts:
 
-    Your site is now running at `http://localhost:8000`!
+- `npm run build` — production build to `dist/`
+- `npm run preview` — serve the production build locally
