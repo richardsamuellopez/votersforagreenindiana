@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout';
 import GuideContent from '../../components/GuideContent';
+import data from '../../data/generalCandidates2026.json';
 
 export default function Guide2026General() {
   return (
@@ -17,7 +18,7 @@ export default function Guide2026General() {
               <li>To find your current elected officials, go to <a href="http://iga.in.gov/legislative/find-legislators/">http://iga.in.gov/legislative/find-legislators/</a></li>
             </ul>
           </p>
-          <GuideContent />
+          <GuideContent staticData={data}/>
         </div>
       </div>
     </Layout>

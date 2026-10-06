@@ -1,6 +1,7 @@
 import Layout from '../../components/Layout';
 import CandidateViewsContent from '../../components/CandidateViewsContent';
 import CandidateListLive from '../../components/CandidateListLive';
+import data from '../../data/generalCandidates2026.json';
 
 export default function CandidateViews2026General() {
   return (
@@ -38,7 +39,7 @@ export default function CandidateViews2026General() {
           <p>
             For a quick look at the green candidates, go to the Voters Guide.
           </p>
-          <CandidateViewsContent ListComponent={CandidateListLive} />
+          <CandidateViewsContent staticData={data} ListComponent={CandidateListLive} />
         </div>
       </div>
     </Layout>
