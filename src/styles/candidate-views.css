@@ -229,7 +229,22 @@ a:visited {
 }
 
 @media (max-width: 500px) {
-    .live-candidate-names-row {
-        flex-direction: column;
+      .live-candidate-info-row {
+        min-width: 0;
+    }
+
+    .live-info {
+        flex: 1 1 50%;
+        width: 50%;
+        min-width: 0;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .live-info * {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        word-break: break-word;
     }
 }
